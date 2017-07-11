@@ -140,7 +140,11 @@ echo '<table style="border: 1px solid #000;">';
 for ($x = 1; $x < 10; $x++) {
     echo '<tr>';
     for ($y = 1; $y < 10; $y++) {
-        echo '<td style="border: 1px solid #000;">' . $x * $y . '</td>';
+        $a = $x * $y;
+        if (($a % 2) == 0) {
+
+        }
+        echo '<td style="border: 1px solid #000; min-width: 25px; text-align: center;">' . $x * $y . '</td>';
     };
     echo '</tr>';
 };
