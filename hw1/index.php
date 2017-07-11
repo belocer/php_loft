@@ -90,6 +90,8 @@ switch ($day) {
         echo "Неизвестный день";
 }
 echo '<hr>';
+
+
 // Задание #6
 //
 // Создайте массив $bmw с ячейками:
@@ -97,9 +99,27 @@ echo '<hr>';
 // speed
 // doors
 // year
-$bmw = [model, speed, doors, year];
-echo $bmw;
 //  Заполните ячейки значениями соответсвенно: “X5”, 120, 5, “2015”
 // Создайте   массивы   $toyota   и   $opel   аналогичные   массиву   $bmw   (заполните  данными)
+$bmw = [model => 'X5', speed => 120, doors => 5, year => 2015];
+$toyota = [model => 'corolla', speed => 160, doors => 4, year => 2016];
+$opel = [model => 'zafira', speed => 120, doors => 5, year => 2010];
 // Объедините три массива в один многомерный массив
+$auto = [$bmw, $toyota, $opel];
+$car_name = ['bmw', 'toyota', 'opel'];
 // Выведите значения всех трех массивов в виде:
+$i = 0;
+foreach ($auto as $key => $value) {
+    echo '<h4>' . $car_name[$i] . '</h4>';
+    echo "<b>" . $value["model"] . "</b> " .
+        $value["speed"] . ' ' .
+        $value["doors"] . ' ' .
+        $value["year"] . ' ' .
+        "<br>";
+    $i++;
+}
+
+
+echo '<pre>';
+print_r($auto);
+echo '</pre>';
