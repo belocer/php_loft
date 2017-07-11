@@ -142,9 +142,11 @@ for ($x = 1; $x < 10; $x++) {
     for ($y = 1; $y < 10; $y++) {
         $a = $x * $y;
         if (($a % 2) == 0) {
-
+            $a = '(' . $a . ')';
+        } elseif (($a % 2) != 0) {
+            $a = '[' . $a . ']';
         }
-        echo '<td style="border: 1px solid #000; min-width: 25px; text-align: center;">' . $x * $y . '</td>';
+        echo '<td style="border: 1px solid #000; min-width: 25px; text-align: center;">' . $a . '</td>';
     };
     echo '</tr>';
 };
