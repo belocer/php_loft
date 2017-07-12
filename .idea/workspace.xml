@@ -65,13 +65,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw1/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="486">
+              <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
               <folding>
-                <marker date="1499838198476" expanded="true" signature="5477:5498" ph="..." />
-                <marker date="1499838198476" expanded="true" signature="6139:6162" ph="..." />
-                <marker date="1499838198476" expanded="true" signature="6475:6535" ph="..." />
-                <marker date="1499838198476" expanded="true" signature="7216:7233" ph="..." />
+                <marker date="1499838401376" expanded="true" signature="5489:5510" ph="..." />
+                <marker date="1499838401376" expanded="true" signature="6151:6174" ph="..." />
+                <marker date="1499838401376" expanded="true" signature="6487:6547" ph="..." />
+                <marker date="1499838401376" expanded="true" signature="7228:7245" ph="..." />
               </folding>
             </state>
           </provider>
@@ -291,7 +291,7 @@
       <workItem from="1499786268313" duration="2529000" />
       <workItem from="1499790856277" duration="557000" />
       <workItem from="1499791431013" duration="11263000" />
-      <workItem from="1499831993859" duration="4513000" />
+      <workItem from="1499831993859" duration="4717000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -412,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499838155059</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Check Please">
+      <created>1499838205686</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1499838205686</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33144000" />
+    <option name="totallyTimeSpent" value="33348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -502,10 +509,10 @@
         <state relative-caret-position="2754">
           <caret line="153" column="12" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
           <folding>
-            <marker date="1499838198476" expanded="true" signature="5477:5498" ph="..." />
-            <marker date="1499838198476" expanded="true" signature="6139:6162" ph="..." />
-            <marker date="1499838198476" expanded="true" signature="6475:6535" ph="..." />
-            <marker date="1499838198476" expanded="true" signature="7216:7233" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="5489:5510" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="6151:6174" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="6487:6547" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="7228:7245" ph="..." />
           </folding>
         </state>
       </provider>
@@ -562,15 +569,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1499838105393" expanded="true" signature="5453:5474" ph="..." />
+            <marker date="1499838105393" expanded="true" signature="6115:6138" ph="..." />
+            <marker date="1499838105393" expanded="true" signature="6451:6511" ph="..." />
+            <marker date="1499838105393" expanded="true" signature="7192:7209" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hw1/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="486">
+          <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
           <folding>
-            <marker date="1499838198476" expanded="true" signature="5477:5498" ph="..." />
-            <marker date="1499838198476" expanded="true" signature="6139:6162" ph="..." />
-            <marker date="1499838198476" expanded="true" signature="6475:6535" ph="..." />
-            <marker date="1499838198476" expanded="true" signature="7216:7233" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="5489:5510" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="6151:6174" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="6487:6547" ph="..." />
+            <marker date="1499838401376" expanded="true" signature="7228:7245" ph="..." />
           </folding>
         </state>
       </provider>
