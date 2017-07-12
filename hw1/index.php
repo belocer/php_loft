@@ -174,11 +174,15 @@
     print_r($str);
     echo '</pre>';
 
-    $s = ' ';
     $z = 0;
     while ($z < count($str)) {
-        echo $str[$z] . ' + ';
-        $z++;
+        if ($z != count($str) - 1) {
+            echo $str[$z] . ' + ';
+            $z++;
+        } else {
+            echo $str[$z];
+            $z++;
+        }
     }
     echo '<hr>';
     ?>
