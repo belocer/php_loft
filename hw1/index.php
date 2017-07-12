@@ -45,7 +45,7 @@
     define('CONSTABLE', 'triple');
     // Проверьте, существует ли константа, которую Вы хотите использовать
     // Выведите значение созданной константы
-    if (defined('consta') == true) echo "Константа const объявлена! Её значение равно: " . CONSTABLE;
+    if (defined('CONSTABLE') == true) echo "Константа const объявлена! Её значение равно: " . CONSTABLE;
     // Попытайтесь изменить значение созданной константы.
     // echo CONSTABLE = CONSTABLE . 'loftschool'; //НЕ меняется
 
