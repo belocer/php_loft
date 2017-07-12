@@ -4,6 +4,7 @@
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw1/css/style.css" afterPath="$PROJECT_DIR$/hw1/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw1/index.php" afterPath="$PROJECT_DIR$/hw1/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,12 +66,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw1/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1837">
-              <caret line="147" column="45" lean-forward="false" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+            <state relative-caret-position="617">
+              <caret line="180" column="13" lean-forward="true" selection-start-line="180" selection-start-column="13" selection-end-line="180" selection-end-column="13" />
               <folding>
-                <marker date="1499832515408" expanded="true" signature="5453:5474" ph="..." />
-                <marker date="1499832515408" expanded="true" signature="6179:6202" ph="..." />
-                <marker date="1499832515408" expanded="true" signature="6515:6575" ph="..." />
+                <marker date="1499834733046" expanded="true" signature="5453:5474" ph="..." />
+                <marker date="1499834733046" expanded="true" signature="6115:6138" ph="..." />
+                <marker date="1499834733046" expanded="true" signature="6451:6511" ph="..." />
+                <marker date="1499834733046" expanded="true" signature="7192:7209" ph="..." />
               </folding>
             </state>
           </provider>
@@ -79,8 +81,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw1/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -97,8 +99,8 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/hw1/index.php" />
         <option value="$PROJECT_DIR$/hw1/css/style.css" />
+        <option value="$PROJECT_DIR$/hw1/index.php" />
       </list>
     </option>
   </component>
@@ -290,7 +292,7 @@
       <workItem from="1499786268313" duration="2529000" />
       <workItem from="1499790856277" duration="557000" />
       <workItem from="1499791431013" duration="11263000" />
-      <workItem from="1499831993859" duration="796000" />
+      <workItem from="1499831993859" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -376,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499832559241</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&#10;888">
+      <created>1499832804830</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1499832804830</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29427000" />
+    <option name="totallyTimeSpent" value="31376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -465,9 +474,10 @@
         <state relative-caret-position="2754">
           <caret line="153" column="12" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
           <folding>
-            <marker date="1499832515408" expanded="true" signature="5453:5474" ph="..." />
-            <marker date="1499832515408" expanded="true" signature="6179:6202" ph="..." />
-            <marker date="1499832515408" expanded="true" signature="6515:6575" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="5453:5474" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="6115:6138" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="6451:6511" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="7192:7209" ph="..." />
           </folding>
         </state>
       </provider>
@@ -518,20 +528,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1837">
-          <caret line="147" column="45" lean-forward="false" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+        <state relative-caret-position="617">
+          <caret line="180" column="13" lean-forward="true" selection-start-line="180" selection-start-column="13" selection-end-line="180" selection-end-column="13" />
           <folding>
-            <marker date="1499832515408" expanded="true" signature="5453:5474" ph="..." />
-            <marker date="1499832515408" expanded="true" signature="6179:6202" ph="..." />
-            <marker date="1499832515408" expanded="true" signature="6515:6575" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="5453:5474" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="6115:6138" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="6451:6511" ph="..." />
+            <marker date="1499834733046" expanded="true" signature="7192:7209" ph="..." />
           </folding>
         </state>
       </provider>
