@@ -1,5 +1,12 @@
 * {
+    transition: all 1s;
+    box-sizing: border-box;
+}
 
+body {
+    background: url(http://subtlepatterns.com/patterns/grid.png);
+    font: 1em 'PT Sans', Helvetica, Tahoma, Arial, sans-serif;
+    color: #333;
 }
 
 .wrapper {
