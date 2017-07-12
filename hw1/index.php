@@ -180,6 +180,7 @@
         echo $str[$z] . ' + ';
         $z++;
     }
+    echo '<hr>';
     ?>
 </div>
 </body>
