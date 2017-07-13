@@ -194,7 +194,7 @@
     $str = explode(" ", $str);
 
     echo '<pre style="text-align: left;">';
-    print_r($str);
+    print_r(array_reverse($str));
     echo '</pre>';
 
     $z = 0;
