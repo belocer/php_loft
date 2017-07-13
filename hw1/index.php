@@ -150,7 +150,7 @@
 
     foreach ($auto as $key => $value) {
         echo '*************<h4>CAR ' . $value['car'] . '</h4>';
-        echo '<h4 style="display: inline-block;">' . $value['model'] . '</h4>' .
+        echo '<h4 style="display: inline-block;">' . $value['model'] . '&nbsp;</h4>' .
             $value['speed'] . ' ' .
             $value['doors'] . ' ' .
             $value['year'] . ' ' .
@@ -170,12 +170,12 @@
         echo '<tr>';
         for ($y = 1; $y < 11; $y++) {
             $a = $x * $y;
-            if (($a % 2) == 0) {
+            if (($y % 2) == 0 && ($x % 2) == 0) {
                 $a = '(' . $a . ')';
-            } elseif (($a % 2) != 0) {
+            } elseif (($y % 2) != 0 && ($x % 2) != 0) {
                 $a = '[' . $a . ']';
             }
-            echo '<td style="border: 1px solid #777; min-width: 25px; text-align: center;">' . $a . '</td>';
+            echo '<td style="border:1px solid #777;min-width:25px;text-align:center;">' . $a . '</td>';
         };
         echo '</tr>';
     };
@@ -192,6 +192,7 @@
     // Затем разбейте строку на массив. Выведите массив. Затем используя циклы while или do-while (на ваше усмотрение)
     // развернуть массив и склеить в строку используя любой символ, кроме пробела. Вывести результат.
     $str = explode(" ", $str);
+
     echo '<pre style="text-align: left;">';
     print_r($str);
     echo '</pre>';
