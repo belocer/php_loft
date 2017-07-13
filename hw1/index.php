@@ -6,7 +6,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
-
         * {
             transition: all 1s;
             box-sizing: border-box;
@@ -29,7 +28,6 @@
         table {
             margin: 0 auto;
         }
-
     </style>
     <title>Document</title>
 </head>
@@ -88,7 +86,7 @@
     //   попадает   в   диапазон   чисел   от   1   до   17  (включительно)
     // Дополните   конструкцию   if­elseif,   выводя   фразу:   “Неизвестный   возраст”   при  условии,   что   значение   переменной   $age
     //   не   попадет   в   вышеописанные   диапазоны чисел
-    if ($age > 18 && $age < 65) {
+    if ($age >= 18 && $age <= 65) {
         echo 'Вам   еще работать   и   работать';
     } elseif ($age > 65) {
         echo 'Вам   пора   на   пенсию';
@@ -186,6 +184,7 @@
     };
     echo '</table>';
     echo '<hr>';
+
 
     // Задание #8
     //
