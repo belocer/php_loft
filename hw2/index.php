@@ -31,7 +31,7 @@ task7('Карл у Клары украл Кораллы', 'Две бутылки
 echo '<hr>';
 
 //8
-task8();
+task8('RX packets:950381 :) errors:0 dropped:0 overruns:0 frame:0');
 echo '<hr>';
 
 //9
