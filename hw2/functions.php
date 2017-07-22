@@ -37,20 +37,20 @@ function task2($int_arr, $operator)
     switch ($operator) {
         case "+":
             for ($i = 0; $i < count($int_arr); $i++) {
-                $res = $res + $int_arr[$i];
+                $res += $int_arr[$i];
             }
             return $res;
             break;
         case "-":
             for ($i = 0; $i < count($int_arr); $i++) {
-                $res = $res - $int_arr[$i];
+                $res -= $int_arr[$i];
             }
             return $res;
             break;
         case "*":
             for ($i = 0; $i < count($int_arr); $i++) {
                 if ($res != '') {
-                    $res = $res * $int_arr[$i];
+                    $res *= $int_arr[$i];
                 } elseif ($res == '') {
                     $res = $int_arr[$i];
                 }
@@ -59,8 +59,11 @@ function task2($int_arr, $operator)
             break;
         case "/":
             for ($i = 0; $i < count($int_arr); $i++) {
+                if ($arg_arr[$i] == 0) {
+                    echo 'На нуль делить нельзя';
+                }
                 if ($res != '') {
-                    $res = $res / $int_arr[$i];
+                    $res /= $int_arr[$i];
                 } elseif ($res == '') {
                     $res = $int_arr[$i];
                 }
@@ -86,7 +89,7 @@ function task3()
         case "+":
             for ($i = 0; $i < count($arg_arr); $i++) {
                 if ($res != '') {
-                    $res = $res + $arg_arr[$i];
+                    $res += $arg_arr[$i];
                 } elseif ($res == '') {
                     $res = $arg_arr[$i];
                 };
@@ -101,7 +104,7 @@ function task3()
         case "-":
             for ($i = 0; $i < count($arg_arr); $i++) {
                 if ($res != '') {
-                    $res = $res - $arg_arr[$i];
+                    $res -= $arg_arr[$i];
                 } elseif ($res == '') {
                     $res = $arg_arr[$i];
                 };
@@ -116,7 +119,7 @@ function task3()
         case "*":
             for ($i = 0; $i < count($arg_arr); $i++) {
                 if ($res != '') {
-                    $res = $res * $arg_arr[$i];
+                    $res *= $arg_arr[$i];
                 } elseif ($res == '') {
                     $res = $arg_arr[$i];
                 };
@@ -130,8 +133,11 @@ function task3()
             break;
         case "/":
             for ($i = 0; $i < count($arg_arr); $i++) {
+                if ($arg_arr[$i] == 0) {
+                    echo 'На нуль делить нельзя';
+                }
                 if ($res != '') {
-                    $res = $res / $arg_arr[$i];
+                    $res /= $arg_arr[$i];
                 } elseif ($res == '') {
                     $res = $arg_arr[$i];
                 };

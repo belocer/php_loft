@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="Пожалуйста подскажи не могу понять что тут делать. Как это превратить в работающее уравнение.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/anothertest.txt" afterPath="$PROJECT_DIR$/hw2/anothertest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/functions.php" afterPath="$PROJECT_DIR$/hw2/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/index.php" afterPath="$PROJECT_DIR$/hw2/index.php" />
     </list>
@@ -53,28 +52,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw2/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="468">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw2/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="261" column="16" lean-forward="true" selection-start-line="261" selection-start-column="16" selection-end-line="261" selection-end-column="16" />
+            <state relative-caret-position="558">
+              <caret line="136" column="49" lean-forward="false" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1500647267343" expanded="true" signature="700:714" ph="..." />
-                <marker date="1500647267343" expanded="true" signature="4547:4561" ph="..." />
-                <marker date="1500647267343" expanded="true" signature="4690:4713" ph="..." />
-                <marker date="1500647267343" expanded="true" signature="4892:4947" ph="..." />
-                <marker date="1500647267343" expanded="true" signature="6297:7906" ph="..." />
+                <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
+                <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
+                <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
+                <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
+                <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,8 +93,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/hw1/index.php" />
         <option value="$PROJECT_DIR$/hw2/anothertest.txt" />
-        <option value="$PROJECT_DIR$/hw2/functions.php" />
         <option value="$PROJECT_DIR$/hw2/index.php" />
+        <option value="$PROJECT_DIR$/hw2/functions.php" />
       </list>
     </option>
   </component>
@@ -107,8 +106,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="257" />
-    <option name="y" value="100" />
+    <option name="x" value="-1" />
+    <option name="y" value="90" />
     <option name="width" value="1373" />
     <option name="height" value="780" />
   </component>
@@ -150,6 +149,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,7 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +299,9 @@
       <workItem from="1500447754665" duration="11486000" />
       <workItem from="1500522732634" duration="647000" />
       <workItem from="1500527037980" duration="19837000" />
-      <workItem from="1500643900253" duration="3434000" />
+      <workItem from="1500643900253" duration="3624000" />
+      <workItem from="1500660592480" duration="1412000" />
+      <workItem from="1500696011113" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -537,15 +538,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104505000" />
+    <option name="totallyTimeSpent" value="107200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08983957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09251337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.50213903" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33116177" sideWeight="0.49786097" order="7" side_tool="false" content_ui="tabs" />
@@ -556,6 +556,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -628,11 +629,11 @@
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500647267343" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4547:4561" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4690:4713" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4892:4947" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="6297:7906" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
           </folding>
         </state>
       </provider>
@@ -651,11 +652,11 @@
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500647267343" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4547:4561" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4690:4713" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4892:4947" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="6297:7906" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
           </folding>
         </state>
       </provider>
@@ -948,30 +949,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw2/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="261" column="16" lean-forward="true" selection-start-line="261" selection-start-column="16" selection-end-line="261" selection-end-column="16" />
+        <state relative-caret-position="558">
+          <caret line="136" column="49" lean-forward="false" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500647267343" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4547:4561" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4690:4713" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="4892:4947" ph="..." />
-            <marker date="1500647267343" expanded="true" signature="6297:7906" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
+            <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
