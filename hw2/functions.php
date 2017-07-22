@@ -59,9 +59,10 @@ function task2($int_arr, $operator)
             break;
         case "/":
             for ($i = 0; $i < count($int_arr); $i++) {
+
                 if ($int_arr[$i] == 0) {
                     echo 'На нуль делить нельзя';
-                    break;
+                    exit;
                 }
                 if ($res != '') {
                     $res /= $int_arr[$i];
@@ -136,7 +137,7 @@ function task3()
             for ($i = 0; $i < count($arg_arr); $i++) {
                 if ($arg_arr[$i] == 0) {
                     echo 'На нуль делить нельзя';
-                    break;
+                    exit;
                 }
                 if ($res != '') {
                     $res /= $arg_arr[$i];
@@ -181,39 +182,38 @@ function task4()
 }
 
 //////////////////////////////////////////////5
+function utf8_strrev($str) // нашёл на php.net сам бы явно не додумался
+{
+    preg_match_all('/./us', $str, $ar);
+    return join('', array_reverse($ar[0]));
+}
+
+
 function task5($str)
 {
     $str = mb_strtolower($str);
     $str = str_replace(" ", "", $str);
-
-    function utf8_strrev($str) // нашёл на php.net сам бы явно не додумался
-    {
-        preg_match_all('/./us', $str, $ar);
-        return join('', array_reverse($ar[0]));
-    }
-
     $str_reverse = utf8_strrev($str);
 
     for ($i = 0; $i < count($str); $i++) {
         if ($str[$i] != $str_reverse[$i]) {
-            task5_1(false);
             return false;
         }
     }
-    task5_1(true);
     return true;
 }
 
 
-function task5_1($bool)
+function task5_1($str)
 {
-    if ($bool == true) {
+    if (task5($str) == true) {
         echo 'Строка является палиндромом';
-    } elseif ($bool == false) {
+    } elseif (task5($str) == false) {
         echo 'Строка НЕ является палиндромом';
     } else {
         echo 'Переданные аргумент не строка';
     }
+
 }
 
 //////////////////////////////////////////////6
@@ -311,3 +311,42 @@ function task10($file)
     echo 'Содержимое файла: ' . $contents;
     fclose($handle);
 }
+
+
+
+
+//////////////////////////////////////////////5
+//function task5($str)
+//{
+//    $str = mb_strtolower($str);
+//    $str = str_replace(" ", "", $str);
+//
+//    function utf8_strrev($str) // нашёл на php.net сам бы явно не додумался
+//    {
+//        preg_match_all('/./us', $str, $ar);
+//        return join('', array_reverse($ar[0]));
+//    }
+//
+//    $str_reverse = utf8_strrev($str);
+//
+//    for ($i = 0; $i < count($str); $i++) {
+//        if ($str[$i] != $str_reverse[$i]) {
+//            task5_1(false);
+//            return false;
+//        }
+//    }
+//    task5_1(true);
+//    return true;
+//}
+//
+//
+//function task5_1($bool)
+//{
+//    if ($bool == true) {
+//        echo 'Строка является палиндромом';
+//    } elseif ($bool == false) {
+//        echo 'Строка НЕ является палиндромом';
+//    } else {
+//        echo 'Переданные аргумент не строка';
+//    }
+//}
