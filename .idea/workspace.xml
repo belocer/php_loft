@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/functions.php" afterPath="$PROJECT_DIR$/hw2/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/index.php" afterPath="$PROJECT_DIR$/hw2/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw2/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="756">
+              <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -105,7 +103,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1" />
     <option name="y" value="90" />
     <option name="width" value="1373" />
@@ -303,7 +301,7 @@
       <workItem from="1500660592480" duration="1412000" />
       <workItem from="1500696011113" duration="3670000" />
       <workItem from="1500714473504" duration="1580000" />
-      <workItem from="1500733370041" duration="381000" />
+      <workItem from="1500733370041" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -557,14 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1500715965649</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Убрал цикл">
+      <created>1500733771343</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1500733771343</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111738000" />
+    <option name="totallyTimeSpent" value="112118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09465241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -630,7 +635,8 @@
     <MESSAGE value="Поправил 2-е и 3-е задание." />
     <MESSAGE value="Добавил break; 64строка 139строка" />
     <MESSAGE value="Правлю 5 задание, не пойму почему проверяет не всегда правильно. И до этого тоже самое было, по ходу. &#10;Не могу правильно сравнить." />
-    <option name="LAST_COMMIT_MESSAGE" value="Правлю 5 задание, не пойму почему проверяет не всегда правильно. И до этого тоже самое было, по ходу. &#10;Не могу правильно сравнить." />
+    <MESSAGE value="Убрал цикл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал цикл" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -995,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw2/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="756">
+          <caret line="65" column="7" lean-forward="true" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
           <folding />
         </state>
       </provider>
