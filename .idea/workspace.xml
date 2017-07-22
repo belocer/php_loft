@@ -52,28 +52,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw2/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="360">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw2/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="210" column="37" lean-forward="true" selection-start-line="210" selection-start-column="37" selection-end-line="210" selection-end-column="37" />
+            <state relative-caret-position="414">
+              <caret line="199" column="5" lean-forward="false" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1500715643915" expanded="true" signature="700:714" ph="..." />
-                <marker date="1500715643915" expanded="true" signature="4770:4784" ph="..." />
-                <marker date="1500715643915" expanded="true" signature="4913:4936" ph="..." />
-                <marker date="1500715643915" expanded="true" signature="5115:5170" ph="..." />
-                <marker date="1500715643915" expanded="true" signature="6465:8074" ph="..." />
+                <marker date="1500733521678" expanded="true" signature="700:714" ph="..." />
+                <marker date="1500733521678" expanded="true" signature="4770:4784" ph="..." />
+                <marker date="1500733521678" expanded="true" signature="4913:4936" ph="..." />
+                <marker date="1500733521678" expanded="true" signature="5115:5170" ph="..." />
+                <marker date="1500733521678" expanded="true" signature="6396:8005" ph="..." />
               </folding>
             </state>
           </provider>
@@ -148,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,6 +170,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +302,8 @@
       <workItem from="1500643900253" duration="3624000" />
       <workItem from="1500660592480" duration="1412000" />
       <workItem from="1500696011113" duration="3670000" />
-      <workItem from="1500714473504" duration="1405000" />
+      <workItem from="1500714473504" duration="1580000" />
+      <workItem from="1500733370041" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -549,17 +550,24 @@
       <option name="project" value="LOCAL" />
       <updated>1500701361569</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Правлю 5 задание, не пойму почему проверяет не всегда правильно. И до этого тоже самое было, по ходу. &#10;Не могу правильно сравнить.">
+      <created>1500715965648</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1500715965649</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111182000" />
+    <option name="totallyTimeSpent" value="111738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09358289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09465241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.50213903" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,7 +629,8 @@
     <MESSAGE value="Пожалуйста подскажи не могу понять что тут делать. Как это превратить в работающее уравнение." />
     <MESSAGE value="Поправил 2-е и 3-е задание." />
     <MESSAGE value="Добавил break; 64строка 139строка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил break; 64строка 139строка" />
+    <MESSAGE value="Правлю 5 задание, не пойму почему проверяет не всегда правильно. И до этого тоже самое было, по ходу. &#10;Не могу правильно сравнить." />
+    <option name="LAST_COMMIT_MESSAGE" value="Правлю 5 задание, не пойму почему проверяет не всегда правильно. И до этого тоже самое было, по ходу. &#10;Не могу правильно сравнить." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -646,11 +655,11 @@
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500715643915" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="4770:4784" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="4913:4936" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="5115:5170" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="6465:8074" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="4770:4784" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="4913:4936" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="5115:5170" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="6396:8005" ph="..." />
           </folding>
         </state>
       </provider>
@@ -669,11 +678,11 @@
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500715643915" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="4770:4784" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="4913:4936" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="5115:5170" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="6465:8074" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="4770:4784" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="4913:4936" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="5115:5170" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="6396:8005" ph="..." />
           </folding>
         </state>
       </provider>
@@ -969,26 +978,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/index.php">
+    <entry file="file://$PROJECT_DIR$/hw2/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="199" column="5" lean-forward="false" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1500733521678" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="4770:4784" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="4913:4936" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="5115:5170" ph="..." />
+            <marker date="1500733521678" expanded="true" signature="6396:8005" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/functions.php">
+    <entry file="file://$PROJECT_DIR$/hw2/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="210" column="37" lean-forward="true" selection-start-line="210" selection-start-column="37" selection-end-line="210" selection-end-column="37" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500715643915" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="4770:4784" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="4913:4936" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="5115:5170" ph="..." />
-            <marker date="1500715643915" expanded="true" signature="6465:8074" ph="..." />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

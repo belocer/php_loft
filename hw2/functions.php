@@ -195,10 +195,8 @@ function task5($str)
     $str = str_replace(" ", "", $str);
     $str_reverse = utf8_strrev($str);
 
-    for ($i = 0; $i < count($str); $i++) {
-        if ($str[$i] != $str_reverse[$i]) {
-            return false;
-        }
+    if ($str != $str_reverse) {
+        return false;
     }
     return true;
 }
