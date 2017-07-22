@@ -59,8 +59,9 @@ function task2($int_arr, $operator)
             break;
         case "/":
             for ($i = 0; $i < count($int_arr); $i++) {
-                if ($arg_arr[$i] == 0) {
+                if ($int_arr[$i] == 0) {
                     echo 'На нуль делить нельзя';
+                    break;
                 }
                 if ($res != '') {
                     $res /= $int_arr[$i];
@@ -135,6 +136,7 @@ function task3()
             for ($i = 0; $i < count($arg_arr); $i++) {
                 if ($arg_arr[$i] == 0) {
                     echo 'На нуль делить нельзя';
+                    break;
                 }
                 if ($res != '') {
                     $res /= $arg_arr[$i];

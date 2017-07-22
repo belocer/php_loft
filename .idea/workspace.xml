@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="Пожалуйста подскажи не могу понять что тут делать. Как это превратить в работающее уравнение.">
+    <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="Добавил break;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/functions.php" afterPath="$PROJECT_DIR$/hw2/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw2/index.php" afterPath="$PROJECT_DIR$/hw2/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,15 +64,15 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw2/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="136" column="49" lean-forward="false" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
+            <state relative-caret-position="342">
+              <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
-                <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
-                <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
-                <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
-                <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
+                <marker date="1500701284894" expanded="true" signature="700:714" ph="..." />
+                <marker date="1500701284894" expanded="true" signature="4771:4785" ph="..." />
+                <marker date="1500701284894" expanded="true" signature="4914:4937" ph="..." />
+                <marker date="1500701284894" expanded="true" signature="5116:5171" ph="..." />
+                <marker date="1500701284894" expanded="true" signature="6521:8130" ph="..." />
               </folding>
             </state>
           </provider>
@@ -301,7 +300,7 @@
       <workItem from="1500527037980" duration="19837000" />
       <workItem from="1500643900253" duration="3624000" />
       <workItem from="1500660592480" duration="1412000" />
-      <workItem from="1500696011113" duration="1093000" />
+      <workItem from="1500696011113" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -534,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500527768788</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Поправил 2-е и 3-е задание.">
+      <created>1500697137580</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1500697137580</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107200000" />
+    <option name="totallyTimeSpent" value="108505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -604,7 +610,8 @@
     <MESSAGE value="Check Please" />
     <MESSAGE value="Please check again." />
     <MESSAGE value="Пожалуйста подскажи не могу понять что тут делать. Как это превратить в работающее уравнение." />
-    <option name="LAST_COMMIT_MESSAGE" value="Пожалуйста подскажи не могу понять что тут делать. Как это превратить в работающее уравнение." />
+    <MESSAGE value="Поправил 2-е и 3-е задание." />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил 2-е и 3-е задание." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -629,11 +636,11 @@
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="4771:4785" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="4914:4937" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="5116:5171" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="6521:8130" ph="..." />
           </folding>
         </state>
       </provider>
@@ -652,11 +659,11 @@
           <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="4771:4785" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="4914:4937" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="5116:5171" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="6521:8130" ph="..." />
           </folding>
         </state>
       </provider>
@@ -962,15 +969,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw2/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="136" column="49" lean-forward="false" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
+        <state relative-caret-position="342">
+          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1500697088653" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="4717:4731" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="4860:4883" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="5062:5117" ph="..." />
-            <marker date="1500697088653" expanded="true" signature="6467:8076" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="700:714" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="4771:4785" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="4914:4937" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="5116:5171" ph="..." />
+            <marker date="1500701284894" expanded="true" signature="6521:8130" ph="..." />
           </folding>
         </state>
       </provider>
