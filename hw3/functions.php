@@ -75,7 +75,7 @@ function rec($jsonArray1, $jsonArray2)
         if (is_array($jsonArray1[$key]) && is_array($jsonArray1[$key])) {
             rec($jsonArray1[$key], $jsonArray2[$key]);
         }
-        if ($jsonArray1[$key] != $jsonArray2[$key]) {
+        if ($jsonArray1[$key] != $jsonArray2[$key] && $value != 'Array') {
             echo 'Различные элементы массива 1 : ' . $key . ' => ' . $jsonArray1[$key] . '<br>';
             echo 'Различные элементы массива 2 : ' . $key . ' => ' . $jsonArray2[$key] . '<br>';
         }
@@ -120,10 +120,10 @@ function task4()
 
     $result1 = json_decode($result, true);
 
-    /*    echo "<pre>"; // Расскоментируй что бы посмотреть данные JSON файла
-        print_r($result1);
-        echo "</pre>";
-        echo "<hr>";*/
+    /*        echo "<pre>"; // Расскоментируй что бы посмотреть данные JSON файла
+            print_r($result1);
+            echo "</pre>";
+            echo "<hr>";*/
 
     recur($result1);
 }
@@ -134,10 +134,10 @@ function recur($result1)
         if (is_array($result1[$key])) {
             recur($result1[$key]);
         }
-        if ($key == "pageid") {
+        if ($key == "pageid" && $key != 'Array') {
             echo "page_id " . $value . "<br>";
         }
-        if ($key == "title") {
+        if ($key == "title" && $key != 'Array') {
             echo "title " . $value . "<br>";
         }
     }
