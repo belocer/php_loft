@@ -39,7 +39,7 @@ function task2()
     /*
      * Открываю output.json добавляю элемент в массив сохраняю как output2.json
      * ========================================================================*/
-    /*    $jsonPath = './output.json';
+    /*    $jsonPath = './output.json';   // расскоментировать в случае если нужно добавить элемент в массив
         $jsonFile = file_get_contents($jsonPath);
         $jsonArray = json_decode($jsonFile, true);
         $arrayPlus = [
@@ -65,48 +65,80 @@ function task2()
     } elseif (count($jsonArray2) > count($jsonArray1)) {
         echo 'Второй массив больше первого <br>';
     } elseif (count($jsonArray1) === count($jsonArray2)) {
-        /*        for ($i = 0; $i < count($jsonArray1); $i++) {
-                    if ($jsonArray1[$i] != $jsonArray2[$i]) {
-                        echo 'элементы массива 1' . $jsonArray1[$i];
-                        echo 'элементы массива 2' . $jsonArray2[$i];
-                    }
-                    for ($x = 0; $x < count($jsonArray1[$i]); $x++) {
-                        echo $jsonArray1[$i][$x] . '<br>';
-                        echo $jsonArray2[$i][$x] . '<br>';
-                        if ($jsonArray1[$i][$x] != $jsonArray2[$i][$x]) {
-                            echo 'элементы массива 1' . $jsonArray1[$i][$x];
-                            echo 'элементы массива 2' . $jsonArray2[$i][$x];
-                        } else {
-                            echo 'ПХП думает, что элементы равны, они равны вот этому: ' . $jsonArray1[$i][$x] . ' ' . $jsonArray2[$i][$x];
-                        }
-                    }
-                }*/
         echo rec($jsonArray1, $jsonArray2);
     }
 }
 
 function rec($jsonArray1, $jsonArray2)
 {
-    echo '<pre>';
-    print_r($jsonArray1);
-    print_r($jsonArray2);
-    echo '</pre>';
-    for ($i = 0; $i < count($jsonArray1); $i++) {
-        if (is_array($jsonArray1[$i]) && is_array($jsonArray1[$i])) {
-            rec($jsonArray1[$i], $jsonArray2[$i]);
+    foreach ($jsonArray1 as $key => $value) {
+        if (is_array($jsonArray1[$key]) && is_array($jsonArray1[$key])) {
+            rec($jsonArray1[$key], $jsonArray2[$key]);
         }
-        if ($jsonArray1[$i] != $jsonArray2[$i]) {
-            echo 'элементы массива 1' . $jsonArray1[$i] . '<br>' . 'элементы массива 2' . $jsonArray2[$i];
+        if ($jsonArray1[$key] != $jsonArray2[$key]) {
+            echo 'Различные элементы массива 1 : ' . $key . ' => ' . $jsonArray1[$key] . '<br>';
+            echo 'Различные элементы массива 2 : ' . $key . ' => ' . $jsonArray2[$key] . '<br>';
         }
     }
 }
 
 function task3()
 {
+    $arr = [];
+    for ($i = 0; $i < 61; $i++) {
+        $arr[$i] = $i;
+    }
 
+    $fpw = fopen('file.csv', 'w');
+    fputcsv($fpw, $arr);
+    fclose($fpw);
+
+    $fpr = fopen('file.csv', 'r');
+    $res = fgetcsv($fpr, 100, ',');
+
+    $sum = 0;
+    foreach ($res as $key => $value) {
+        if ($value % 2 == 0) {
+            $sum += $value;
+        }
+    }
+    echo $sum;
+    fclose($fpr);
 }
 
 function task4()
 {
+    $url = "https://en.wikipedia.org/w/api.php?action=query&titles=Main%20Page&prop=revisions&rvprop=content&format=json";
+    $curl = curl_init(); // Инициализирует сеанс cURL
 
+    // Устанавливает параметр для сеанса CURL
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+    $result = curl_exec($curl); //  Выполняет запрос cURL
+    curl_close($curl); // Завершает сеанс cURL
+
+    $result1 = json_decode($result, true);
+
+    /*    echo "<pre>"; // Расскоментируй что бы посмотреть данные JSON файла
+        print_r($result1);
+        echo "</pre>";
+        echo "<hr>";*/
+
+    recur($result1);
+}
+
+function recur($result1)
+{
+    foreach ($result1 as $key => $value) {
+        if (is_array($result1[$key])) {
+            recur($result1[$key]);
+        }
+        if ($key == "pageid") {
+            echo "page_id " . $value . "<br>";
+        }
+        if ($key == "title") {
+            echo "title " . $value . "<br>";
+        }
+    }
 }
