@@ -39,17 +39,17 @@ function task2()
     /*
      * Открываю output.json добавляю элемент в массив сохраняю как output2.json
      * ========================================================================*/
-    $jsonPath = './output.json';
-    $jsonFile = file_get_contents($jsonPath);
-    $jsonArray = json_decode($jsonFile, true);
-    $arrayPlus = [
-        'Xenoblade' => 'Chronicles 2',
-        'Bomberman' => 'R',
-        'Splatoon' => '2'
-    ];
-    $jsonArray['Nintendo Switch'] = $arrayPlus;
-    $jsonString1 = json_encode($jsonArray);
-    file_put_contents('output2.json', $jsonString1);
+    /*    $jsonPath = './output.json';
+        $jsonFile = file_get_contents($jsonPath);
+        $jsonArray = json_decode($jsonFile, true);
+        $arrayPlus = [
+            'Xenoblade' => 'Chronicles 2',
+            'Bomberman' => 'R',
+            'Splatoon' => '2'
+        ];
+        $jsonArray['Nintendo Switch'] = $arrayPlus;
+        $jsonString1 = json_encode($jsonArray);
+        file_put_contents('output2.json', $jsonString1);*/
     /*
      * Открываю оба файла, сравниваю содержимое
      * ========================================================================*/
@@ -81,8 +81,7 @@ function task2()
                         }
                     }
                 }*/
-
-        echo $res = rec($jsonArray1, $jsonArray2);
+        echo rec($jsonArray1, $jsonArray2);
     }
 }
 
@@ -96,8 +95,8 @@ function rec($jsonArray1, $jsonArray2)
         if (is_array($jsonArray1[$i]) && is_array($jsonArray1[$i])) {
             rec($jsonArray1[$i], $jsonArray2[$i]);
         }
-        if ($jsonArray1[$i] !== $jsonArray2[$i]) {
-            return $res1 = 'элементы массива 1' . $jsonArray1[$i] . '<br>' . 'элементы массива 2' . $jsonArray2[$i];
+        if ($jsonArray1[$i] != $jsonArray2[$i]) {
+            echo 'элементы массива 1' . $jsonArray1[$i] . '<br>' . 'элементы массива 2' . $jsonArray2[$i];
         }
     }
 }
