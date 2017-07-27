@@ -75,7 +75,7 @@ function rec($jsonArray1, $jsonArray2)
         if (is_array($jsonArray1[$key]) && is_array($jsonArray1[$key])) {
             rec($jsonArray1[$key], $jsonArray2[$key]);
         }
-        if ($jsonArray1[$key] != $jsonArray2[$key] && $value != 'Array') {
+        if ($jsonArray1[$key] != $jsonArray2[$key] && $jsonArray1[$key] !== "Array" && $jsonArray2[$key] !== "Array") {
             echo 'Различные элементы массива 1 : ' . $key . ' => ' . $jsonArray1[$key] . '<br>';
             echo 'Различные элементы массива 2 : ' . $key . ' => ' . $jsonArray2[$key] . '<br>';
         }
@@ -135,10 +135,10 @@ function recur($result1)
             recur($result1[$key]);
         }
         if ($key == "pageid" && $key != 'Array') {
-            echo "page_id " . $value . "<br>";
+            echo "page_id : " . $value . "<br>";
         }
         if ($key == "title" && $key != 'Array') {
-            echo "title " . $value . "<br>";
+            echo "title : " . $value . "<br>";
         }
     }
 }
