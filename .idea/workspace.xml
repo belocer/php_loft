@@ -4,6 +4,8 @@
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/functions.php" afterPath="$PROJECT_DIR$/hw3/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/output.json" afterPath="$PROJECT_DIR$/hw3/output.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/output2.json" afterPath="$PROJECT_DIR$/hw3/output2.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,47 +66,12 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw3/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+            <state relative-caret-position="450">
+              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
               <folding>
-                <marker date="1501177362885" expanded="true" signature="3938:4050" ph="..." />
+                <marker date="1501248381359" expanded="true" signature="1251:1265" ph="..." />
+                <marker date="1501248381359" expanded="true" signature="4783:4895" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/file.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw2/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5112">
-              <caret line="289" column="19" lean-forward="false" selection-start-line="288" selection-start-column="8" selection-end-line="291" selection-end-column="24" />
-              <folding>
-                <marker date="1500733521678" expanded="true" signature="700:714" ph="..." />
-                <marker date="1500733521678" expanded="true" signature="4770:4784" ph="..." />
-                <marker date="1500733521678" expanded="true" signature="4913:4936" ph="..." />
-                <marker date="1500733521678" expanded="true" signature="5115:5170" ph="..." />
-                <marker date="1500733521678" expanded="true" signature="6396:8005" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/output2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="294" lean-forward="false" selection-start-line="0" selection-start-column="294" selection-end-line="0" selection-end-column="294" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +80,17 @@
         <entry file="file://$PROJECT_DIR$/hw3/output.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="251" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="372" />
+              <caret line="0" column="224" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw3/output2.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="361" lean-forward="false" selection-start-line="0" selection-start-column="361" selection-end-line="0" selection-end-column="361" />
               <folding />
             </state>
           </provider>
@@ -146,10 +123,10 @@
         <option value="$PROJECT_DIR$/hw2/functions.php" />
         <option value="$PROJECT_DIR$/hw2/index.php" />
         <option value="$PROJECT_DIR$/hw3/data.xml" />
-        <option value="$PROJECT_DIR$/hw3/output.json" />
         <option value="$PROJECT_DIR$/hw3/index.php" />
-        <option value="$PROJECT_DIR$/hw3/output2.json" />
         <option value="$PROJECT_DIR$/hw3/file.csv" />
+        <option value="$PROJECT_DIR$/hw3/output.json" />
+        <option value="$PROJECT_DIR$/hw3/output2.json" />
         <option value="$PROJECT_DIR$/hw3/functions.php" />
       </list>
     </option>
@@ -203,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,8 +203,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,7 +349,8 @@
       <workItem from="1501063252537" duration="301000" />
       <workItem from="1501068737278" duration="11728000" />
       <workItem from="1501130852829" duration="18576000" />
-      <workItem from="1501175764548" duration="1489000" />
+      <workItem from="1501175764548" duration="2151000" />
+      <workItem from="1501246023542" duration="2120000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -640,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501176043404</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="В 78 строке пытаюсь избавится от вывода строки &quot;Array&quot;, не получается.">
+      <created>1501177519815</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1501177519815</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -664,13 +649,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149536000" />
+    <option name="totallyTimeSpent" value="152318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09197861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.093048126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.50213903" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -755,7 +740,8 @@
     <MESSAGE value="Правлю 5 задание, не пойму почему проверяет не всегда правильно. И до этого тоже самое было, по ходу. &#10;Не могу правильно сравнить." />
     <MESSAGE value="Убрал цикл" />
     <MESSAGE value="Добавил проверку на строку &quot;Array&quot;? не пойму от куда она появляется." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил проверку на строку &quot;Array&quot;? не пойму от куда она появляется." />
+    <MESSAGE value="В 78 строке пытаюсь избавится от вывода строки &quot;Array&quot;, не получается." />
+    <option name="LAST_COMMIT_MESSAGE" value="В 78 строке пытаюсь избавится от вывода строки &quot;Array&quot;, не получается." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -970,22 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/output.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="251" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="372" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/output2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="294" lean-forward="false" selection-start-line="0" selection-start-column="294" selection-end-line="0" selection-end-column="294" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw2/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5112">
@@ -1016,12 +986,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="224" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/output2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="361" lean-forward="false" selection-start-line="0" selection-start-column="361" selection-end-line="0" selection-end-column="361" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hw3/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+        <state relative-caret-position="450">
+          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
           <folding>
-            <marker date="1501177362885" expanded="true" signature="3938:4050" ph="..." />
+            <marker date="1501248381359" expanded="true" signature="1251:1265" ph="..." />
+            <marker date="1501248381359" expanded="true" signature="4783:4895" ph="..." />
           </folding>
         </state>
       </provider>

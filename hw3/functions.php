@@ -39,7 +39,13 @@ function task2()
     /*
      * Открываю output.json добавляю элемент в массив сохраняю как output2.json
      * ========================================================================*/
-    /*    $jsonPath = './output.json';   // расскоментировать в случае если нужно добавить элемент в массив
+    echo "<br> <b style='color:darkred;'>";
+    $rand = rand(0, 1);
+    echo 'Если здесь ноль значит одни файл содержит больше данных. Если же 1 то по длинне одинаковые массивы но значение элементов разное : ' . $rand;
+    echo "</b> <br>";
+
+    if ($rand == 0) { // Здесь добавляю во второй файл еще один элемент, выведет сообщение что один массив больше другва
+        $jsonPath = './output.json';
         $jsonFile = file_get_contents($jsonPath);
         $jsonArray = json_decode($jsonFile, true);
         $arrayPlus = [
@@ -49,7 +55,21 @@ function task2()
         ];
         $jsonArray['Nintendo Switch'] = $arrayPlus;
         $jsonString1 = json_encode($jsonArray);
-        file_put_contents('output2.json', $jsonString1);*/
+        file_put_contents('output2.json', $jsonString1);
+    } elseif ($rand == 1) { // Здесь по длине делаю одинаковые файлы, но в одном немного другое значение элемента
+        $jsonPath = './output.json';
+        $jsonFile = file_get_contents($jsonPath);
+        $jsonArray = json_decode($jsonFile, true);
+        $arrayPlus = [
+            'Xenoblade' => 'Chronicles 2',
+            'Bomberman' => 'R',
+            'Splatoon' => '55'
+        ];
+        $jsonArray['Nintendo Switch'] = $arrayPlus;
+        $jsonString1 = json_encode($jsonArray);
+        file_put_contents('output.json', $jsonString1);
+    }
+
     /*
      * Открываю оба файла, сравниваю содержимое
      * ========================================================================*/
