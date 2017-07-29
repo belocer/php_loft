@@ -66,11 +66,11 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw3/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+            <state relative-caret-position="684">
+              <caret line="146" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding>
-                <marker date="1501248381359" expanded="true" signature="1251:1265" ph="..." />
-                <marker date="1501248381359" expanded="true" signature="4783:4895" ph="..." />
+                <marker date="1501310091825" expanded="true" signature="1251:1265" ph="..." />
+                <marker date="1501310091825" expanded="true" signature="4779:4841" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/hw3/output.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="224" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
+              <caret line="0" column="451" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
               <folding />
             </state>
           </provider>
@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/hw3/output2.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="361" lean-forward="false" selection-start-line="0" selection-start-column="361" selection-end-line="0" selection-end-column="361" />
+              <caret line="0" column="450" lean-forward="false" selection-start-line="0" selection-start-column="450" selection-end-line="0" selection-end-column="450" />
               <folding />
             </state>
           </provider>
@@ -180,8 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +201,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +350,9 @@
       <workItem from="1501068737278" duration="11728000" />
       <workItem from="1501130852829" duration="18576000" />
       <workItem from="1501175764548" duration="2151000" />
-      <workItem from="1501246023542" duration="2120000" />
+      <workItem from="1501246023542" duration="2251000" />
+      <workItem from="1501252448255" duration="599000" />
+      <workItem from="1501309303235" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -625,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501177519815</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Сделал что бы рандомно, либо увеличивался массив либо изменялись данные)">
+      <created>1501248452692</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1501248452692</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -649,13 +658,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152318000" />
+    <option name="totallyTimeSpent" value="153836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.093048126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095187165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.50213903" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,7 +750,8 @@
     <MESSAGE value="Убрал цикл" />
     <MESSAGE value="Добавил проверку на строку &quot;Array&quot;? не пойму от куда она появляется." />
     <MESSAGE value="В 78 строке пытаюсь избавится от вывода строки &quot;Array&quot;, не получается." />
-    <option name="LAST_COMMIT_MESSAGE" value="В 78 строке пытаюсь избавится от вывода строки &quot;Array&quot;, не получается." />
+    <MESSAGE value="Сделал что бы рандомно, либо увеличивался массив либо изменялись данные)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал что бы рандомно, либо увеличивался массив либо изменялись данные)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -974,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +998,7 @@
     <entry file="file://$PROJECT_DIR$/hw3/output.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="224" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
+          <caret line="0" column="451" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
           <folding />
         </state>
       </provider>
@@ -997,18 +1006,18 @@
     <entry file="file://$PROJECT_DIR$/hw3/output2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="361" lean-forward="false" selection-start-line="0" selection-start-column="361" selection-end-line="0" selection-end-column="361" />
+          <caret line="0" column="450" lean-forward="false" selection-start-line="0" selection-start-column="450" selection-end-line="0" selection-end-column="450" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw3/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        <state relative-caret-position="684">
+          <caret line="146" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding>
-            <marker date="1501248381359" expanded="true" signature="1251:1265" ph="..." />
-            <marker date="1501248381359" expanded="true" signature="4783:4895" ph="..." />
+            <marker date="1501310091825" expanded="true" signature="1251:1265" ph="..." />
+            <marker date="1501310091825" expanded="true" signature="4779:4841" ph="..." />
           </folding>
         </state>
       </provider>

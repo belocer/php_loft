@@ -140,25 +140,12 @@ function task4()
 
     $result1 = json_decode($result, true);
 
-    /*        echo "<pre>"; // Расскоментируй что бы посмотреть данные JSON файла
-            print_r($result1);
-            echo "</pre>";
-            echo "<hr>";*/
+    /*    echo "<pre>"; // Расскоментируй что бы посмотреть данные JSON файла
+        print_r($result1);
+        echo "</pre>";
+        echo "<hr>";*/
 
-    recur($result1);
-}
-
-function recur($result1)
-{
-    foreach ($result1 as $key => $value) {
-        if (is_array($result1[$key])) {
-            recur($result1[$key]);
-        }
-        if ($key == "pageid" && $key != 'Array') {
-            echo "page_id : " . $value . "<br>";
-        }
-        if ($key == "title" && $key != 'Array') {
-            echo "title : " . $value . "<br>";
-        }
-    }
+    echo "page_id : " . $result1['query']['pages']['15580374']['pageid'] . "<br>";
+    echo "title : " . $result1['query']['pages']['15580374']['title'] . "<br>";
+    //recur($result1);
 }
