@@ -43,5 +43,3 @@ if ($res_email == $email) {
     //$str = implode(';', $res);
     //echo $str;
 }
-
-

@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, helvetica, sans-serif;
+    transition: all .3s;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+/*Общий Блок*/
+.container {
+    height: auto;
+    min-height: 600px;
+    max-width: 1200px;
+    min-width: 1070px;
+    width: 75%;
+    border: 1px solid rgba(51, 51, 51, .3);
+    display: block;
+    margin: 1rem auto 0;
+    background: rgba(51, 51, 51, .05);
+    box-shadow: 0 0 30px rgba(51, 51, 51, .5);
+}
+
+/*Меню*/
+.menu {
+    height: 200%;
+    display: inline-block;
+    width: 20%;
+    float: left;
+}
+
+.container .menu ul {
+    float: left;
+}
+
+.container nav ul {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+.container nav li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 0 2px 4px rgba(51, 51, 51, .3);
+    margin-left: -10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.container nav li a {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    background: rgba(51, 51, 51, .1);
+    width: 100%;
+    text-decoration: none;
+    color: rgba(51, 51, 51, .7);
+    text-transform: uppercase;
+    transition: background .3s;
+    font-size: .8rem;
+}
+
+.container nav li a:hover {
+    background: rgba(51, 51, 51, .9);
+    color: rgba(255, 255, 255, .8);
+    transition: background .3s;
+}
+
+/* Выбранная вкладка */
+#active {
+    background: rgba(55, 55, 55, 1);
+    color: rgba(255, 255, 255, .8);
+    transition: background .3s;
+    font-size: .8rem;
+}
+
+/*Содержимое пользователи*/
+.content {
+    display: inline-block;
+    height: 90%;
+    width: 74%;
+    min-height: 578px;
+    min-width: 500px;
+    border: 1px solid rgba(51, 51, 51, .3);
+    border-radius: 3px;
+    margin: 2rem 2%;
+    text-align: center;
+    background: rgba(255, 255, 255, .5);
+}
+
+.content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content h2 {
+    color: rgba(51, 51, 51, .3);
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.content div span {
+    width: 24%;
+    color: rgba(51, 51, 51, .6);
+    height: 2rem;
+    line-height: 2rem;
+    display: inline-block;
+}
+
+.content ul li {
+    width: 23%;
+    height: 2rem;
+    line-height: 2rem;
+    list-style: none;
+    display: inline-block;
+    background: rgba(50, 50, 50, .05);
+    margin: 3px;
+    font-size: .9rem;
+}
+
+/*Содержимое заказа*/
+.content1 {
+    display: inline-block;
+    height: 90%;
+    width: 74%;
+    min-height: 578px;
+    min-width: 500px;
+    border: 1px solid rgba(51, 51, 51, .3);
+    border-radius: 3px;
+    margin: 2rem 2%;
+    text-align: center;
+    background: rgba(255, 255, 255, .5);
+}
+
+.content1 h2 {
+    color: rgba(51, 51, 51, .3);
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.content1 div span {
+    width: 24%;
+    color: rgba(51, 51, 51, .6);
+    height: 2rem;
+    line-height: 2rem;
+    display: inline-block;
+}
+
+.block {
+/*    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;*/
+}
+
+.block div {
+    display: inline-block;
+    width: 45%;
+}
+
+.block > .comment {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: left;
+    margin-left: 44px;
+}
+
+.block > .callback {
+    width: 49%;
+}
+
+.block > .callback span {
+    width: 49%;
+}
+
+.block .column1 div, .block .column2 div {
+    margin-top: 1rem;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.block > .id_user {
+    width: 100%;
+    text-align: center;
+}
+
+/*Закрываю блок*/
+.close {
+    display: none;
+}

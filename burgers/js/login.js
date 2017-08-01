@@ -25,15 +25,15 @@ document.querySelector('.order__form-button').addEventListener('click', function
 
 /* AJAX запрос поиск по БД email
 ==================================================*/
-document.forms[0].elements.email.addEventListener('blur', function(e){
+document.forms[0].elements.email.addEventListener('blur', function (e) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', '../php/email.php');
     xhr.send();
-    xhr.addEventListener('load', function(){
-       if(xhr.status < 400) {
-           console.log(xhr.responseText);
-       } else {
-           console.log('ошибка');
-       }
+    xhr.addEventListener('load', function () {
+        if (xhr.status < 400) {
+            console.log(xhr.responseText);
+        } else {
+            console.log('ошибка');
+        }
     });
 });
