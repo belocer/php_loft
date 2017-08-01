@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/functions.php" afterPath="$PROJECT_DIR$/hw3/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/output.json" afterPath="$PROJECT_DIR$/hw3/output.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/output2.json" afterPath="$PROJECT_DIR$/hw3/output2.json" />
     </list>
@@ -52,56 +51,46 @@
     </PATH>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/index.php">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/burgers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="-540">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hw3/functions.php">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
-              <caret line="146" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/php/email.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/burgers/php/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding>
-                <marker date="1501310091825" expanded="true" signature="1251:1265" ph="..." />
-                <marker date="1501310091825" expanded="true" signature="4779:4841" ph="..." />
+                <marker date="1501506573824" expanded="true" signature="1852:2111" ph="INSERT INTO orders... " />
+                <marker date="1501506573824" expanded="true" signature="2278:2325" ph="SELECT email... orders" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/output.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="451" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/output2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="450" lean-forward="false" selection-start-line="0" selection-start-column="450" selection-end-line="0" selection-end-column="450" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/data.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -128,11 +117,19 @@
         <option value="$PROJECT_DIR$/hw3/output.json" />
         <option value="$PROJECT_DIR$/hw3/output2.json" />
         <option value="$PROJECT_DIR$/hw3/functions.php" />
+        <option value="$PROJECT_DIR$/burgers/php/login.php" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -180,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,24 +188,30 @@
             <path>
               <item name="php7" type="b2602c69:ProjectViewProjectNode" />
               <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hw2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="burgers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php7" type="b2602c69:ProjectViewProjectNode" />
               <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="hw3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="burgers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="burgers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../burgers" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.24787134" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -352,7 +356,8 @@
       <workItem from="1501175764548" duration="2151000" />
       <workItem from="1501246023542" duration="2251000" />
       <workItem from="1501252448255" duration="599000" />
-      <workItem from="1501309303235" duration="788000" />
+      <workItem from="1501309303235" duration="2041000" />
+      <workItem from="1501506478641" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -634,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501248452692</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Поправил 4 задание">
+      <created>1501310108426</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1501310108426</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -658,13 +670,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153836000" />
+    <option name="totallyTimeSpent" value="155326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095187165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095187165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.50213903" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -751,7 +762,8 @@
     <MESSAGE value="Добавил проверку на строку &quot;Array&quot;? не пойму от куда она появляется." />
     <MESSAGE value="В 78 строке пытаюсь избавится от вывода строки &quot;Array&quot;, не получается." />
     <MESSAGE value="Сделал что бы рандомно, либо увеличивался массив либо изменялись данные)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал что бы рандомно, либо увеличивался массив либо изменялись данные)" />
+    <MESSAGE value="Поправил 4 задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил 4 задание" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -762,35 +774,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hw2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw1/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3384">
@@ -954,15 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,13 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5112">
           <caret line="289" column="19" lean-forward="false" selection-start-line="288" selection-start-column="8" selection-end-line="291" selection-end-column="24" />
-          <folding>
-            <marker date="1500733521678" expanded="true" signature="700:714" ph="..." />
-            <marker date="1500733521678" expanded="true" signature="4770:4784" ph="..." />
-            <marker date="1500733521678" expanded="true" signature="4913:4936" ph="..." />
-            <marker date="1500733521678" expanded="true" signature="5115:5170" ph="..." />
-            <marker date="1500733521678" expanded="true" signature="6396:8005" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,34 +958,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/output.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="451" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="451" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/output2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="450" lean-forward="false" selection-start-line="0" selection-start-column="450" selection-end-line="0" selection-end-column="450" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw3/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="146" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="774">
+          <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/output2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/php/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
-            <marker date="1501310091825" expanded="true" signature="1251:1265" ph="..." />
-            <marker date="1501310091825" expanded="true" signature="4779:4841" ph="..." />
+            <marker date="1501506573824" expanded="true" signature="1852:2111" ph="INSERT INTO orders... " />
+            <marker date="1501506573824" expanded="true" signature="2278:2325" ph="SELECT email... orders" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/php/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/burgers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
