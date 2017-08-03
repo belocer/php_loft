@@ -2,9 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/.idea/burgers.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/css/main.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/css/vendors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/fonts/Gagalin-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/fonts/Lifehack-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/fonts/Ubuntu-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/fonts/Ubuntu-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/fonts/ubuntu-b-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/best.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/hero-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/menu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/menu/diets.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/menu/meats.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/menu/vegans.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/order.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/bg/team.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/burger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/burgers/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/burgers/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/burgers/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/burgers/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/reviews/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/content/teammate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/_svg-sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/arrow-scroll.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/beef.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/buns.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/burger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/cheese.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/cucumber.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/drops.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/fb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/hand.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/inst.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/kkal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/map-marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/mark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/meat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/natural.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/phone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/salad.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/sauce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/icons/vk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/img/sprite/sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/js/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/js/main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/js/vendors.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/php/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/php/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/php/email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/php/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/burgers/php/users.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/vendors.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Gagalin-Regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Lifehack-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ubuntu-Light.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/Ubuntu-Medium.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/ubuntu-b-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/anothertest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/data.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/file.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/output.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/output2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/best.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/hero-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/menu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/menu/diets.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/menu/meats.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/menu/vegans.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/order.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/team.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/burger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/burgers/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/burgers/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/burgers/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/burgers/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/reviews/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/content/teammate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/_svg-sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/arrow-scroll.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/beef.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/buns.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/burger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/check.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/cheese.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/cucumber.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/drops.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/fb.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/hand.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/inst.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/kkal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/map-marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/mark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/mark.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/meat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/natural.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/phone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/salad.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/sauce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/twitter.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/vk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sprite/sprite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendors.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/login.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/output.json" afterPath="$PROJECT_DIR$/hw3/output.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/output2.json" afterPath="$PROJECT_DIR$/hw3/output2.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,75 +162,62 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="workflow@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="workflow@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="workflow" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/burgers/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/burgers/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/burgers/php/email.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/php/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <folding>
+                <marker date="1501747999773" expanded="true" signature="1391:1410" ph="SELECT * FRO... users" />
+                <marker date="1501747999773" expanded="true" signature="2160:2180" ph="SELECT * FRO... orders" />
+                <marker date="1501747999773" expanded="true" signature="3493:3499" ph=" " />
+                <marker date="1501747999773" expanded="true" signature="3514:3520" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/burgers/php/login.php">
+        <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/php/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="-158">
+              <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
               <folding>
-                <marker date="1501506573824" expanded="true" signature="1852:2111" ph="INSERT INTO orders... " />
-                <marker date="1501506573824" expanded="true" signature="2278:2325" ph="SELECT email... orders" />
+                <marker date="1501747435952" expanded="true" signature="23:42" ph="..." />
+                <marker date="1501747435952" expanded="true" signature="136:155" ph="..." />
+                <marker date="1501747435952" expanded="true" signature="1631:1674" ph="SELECT id FR... users" />
+                <marker date="1501747435952" expanded="true" signature="1910:1985" ph="INSERT INTO users... " />
+                <marker date="1501747435952" expanded="true" signature="2177:2220" ph="SELECT id FR... users" />
+                <marker date="1501747435952" expanded="true" signature="2473:2755" ph="INSERT INTO orders... " />
+                <marker date="1501747435952" expanded="true" signature="3173:3455" ph="INSERT INTO orders... " />
+                <marker date="1501747435952" expanded="true" signature="4567:4616" ph="SELECT * FRO... orders" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/js/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,6 +246,10 @@
         <option value="$PROJECT_DIR$/hw3/output2.json" />
         <option value="$PROJECT_DIR$/hw3/functions.php" />
         <option value="$PROJECT_DIR$/burgers/php/login.php" />
+        <option value="$PROJECT_DIR$/graduation_projects/burgers/js/js.js" />
+        <option value="$PROJECT_DIR$/graduation_projects/burgers/index.html" />
+        <option value="$PROJECT_DIR$/graduation_projects/burgers/php/login.php" />
+        <option value="$PROJECT_DIR$/graduation_projects/burgers/php/admin.php" />
       </list>
     </option>
   </component>
@@ -136,9 +268,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="245" />
+    <option name="x" value="-1334" />
+    <option name="y" value="360" />
     <option name="width" value="1682" />
-    <option name="height" value="1057" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -188,17 +321,25 @@
             <path>
               <item name="php7" type="b2602c69:ProjectViewProjectNode" />
               <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="graduation_projects" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="graduation_projects" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="burgers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php7" type="b2602c69:ProjectViewProjectNode" />
               <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="graduation_projects" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="burgers" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="php7" type="b2602c69:ProjectViewProjectNode" />
               <item name="php7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="graduation_projects" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="burgers" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
@@ -358,6 +499,7 @@
       <workItem from="1501252448255" duration="599000" />
       <workItem from="1501309303235" duration="2041000" />
       <workItem from="1501506478641" duration="237000" />
+      <workItem from="1501744080238" duration="3898000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -670,12 +812,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155326000" />
+    <option name="totallyTimeSpent" value="159224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-1368" y="303" width="1376" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095187165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0015267176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.50213903" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -774,98 +917,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3384">
-          <caret line="188" column="49" lean-forward="true" selection-start-line="188" selection-start-column="49" selection-end-line="188" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2826">
-          <caret line="157" column="18" lean-forward="false" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3636">
-          <caret line="202" column="0" lean-forward="true" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hw1/index.php" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/hw1/index.php" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/hw1/index.php" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/hw1/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="171" column="69" lean-forward="false" selection-start-line="171" selection-start-column="69" selection-end-line="171" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="153" column="12" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hw1/index.php" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/hw1/index.php" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/index.html" />
@@ -904,28 +965,10 @@
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$USER_HOME$/Downloads/index.php" />
     <entry file="file://$PROJECT_DIR$/hw1/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://H:/Денис/Рабочий стол/php/Коды/Скрипт файлообменника/index.php" />
-    <entry file="file://$PROJECT_DIR$/hw1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="216" column="18" lean-forward="true" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/anothertest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hw1/index.php" />
+    <entry file="file://$PROJECT_DIR$/hw2/anothertest.txt" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/filter/filter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -933,94 +976,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/index.php">
+    <entry file="file://$PROJECT_DIR$/hw2/index.php" />
+    <entry file="file://$PROJECT_DIR$/hw2/functions.php" />
+    <entry file="file://$PROJECT_DIR$/hw3/file.csv" />
+    <entry file="file://$PROJECT_DIR$/hw3/index.php" />
+    <entry file="file://$PROJECT_DIR$/hw3/functions.php" />
+    <entry file="file://$PROJECT_DIR$/hw3/output.json" />
+    <entry file="file://$PROJECT_DIR$/hw3/output2.json" />
+    <entry file="file://$PROJECT_DIR$/hw3/data.xml" />
+    <entry file="file://$PROJECT_DIR$/burgers/php/login.php" />
+    <entry file="file://$PROJECT_DIR$/burgers/php/email.php" />
+    <entry file="file://$PROJECT_DIR$/burgers/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/burgers/index.html" />
+    <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw2/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5112">
-          <caret line="289" column="19" lean-forward="false" selection-start-line="288" selection-start-column="8" selection-end-line="291" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/file.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="151" column="0" lean-forward="true" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/output.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/output2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burgers/php/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <marker date="1501506573824" expanded="true" signature="1852:2111" ph="INSERT INTO orders... " />
-            <marker date="1501506573824" expanded="true" signature="2278:2325" ph="SELECT email... orders" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/burgers/php/email.php">
+    <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/burgers/js/login.js">
+    <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/php/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="-158">
+          <caret line="72" column="6" lean-forward="false" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+          <folding>
+            <marker date="1501747435952" expanded="true" signature="23:42" ph="..." />
+            <marker date="1501747435952" expanded="true" signature="136:155" ph="..." />
+            <marker date="1501747435952" expanded="true" signature="1631:1674" ph="SELECT id FR... users" />
+            <marker date="1501747435952" expanded="true" signature="1910:1985" ph="INSERT INTO users... " />
+            <marker date="1501747435952" expanded="true" signature="2177:2220" ph="SELECT id FR... users" />
+            <marker date="1501747435952" expanded="true" signature="2473:2755" ph="INSERT INTO orders... " />
+            <marker date="1501747435952" expanded="true" signature="3173:3455" ph="INSERT INTO orders... " />
+            <marker date="1501747435952" expanded="true" signature="4567:4616" ph="SELECT * FRO... orders" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/burgers/index.html">
+    <entry file="file://$PROJECT_DIR$/graduation_projects/burgers/php/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="65" column="24" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <marker date="1501747999773" expanded="true" signature="1391:1410" ph="SELECT * FRO... users" />
+            <marker date="1501747999773" expanded="true" signature="2160:2180" ph="SELECT * FRO... orders" />
+            <marker date="1501747999773" expanded="true" signature="3493:3499" ph=" " />
+            <marker date="1501747999773" expanded="true" signature="3514:3520" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
