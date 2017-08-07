@@ -57,16 +57,10 @@ if ($validEmail) {
         // Запись в пользователи
         $insert = "INSERT INTO users (name, email, phone) VALUES ('$name', '$email', '$phone')";
         mysqli_query($connection, $insert) or die('Ошибка запроса записи: ' . mysqli_error($connection));
-
-        // Поиск по email уже существующего пользователя
-        $search_users = "SELECT id FROM users WHERE email = '$email'";
-        $res_users = mysqli_query($connection, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
-        $res = mysqli_fetch_assoc($res_users);
+        $id_users = mysqli_insert_id($connection); // id последней записи
 
         // Запись в заказы
-        $users_id = $res['id'];
-        $insert = "INSERT INTO orders (name, phone, email, street, home, housing, appt, floor, comment, payment, payment_cart, callback, users_id) VALUES ('$name', '$phone', '$email', '$street', '$home', '$housing', '$appt', '$floor', '$comment', '$payment', '$payment_cart', '$callback', '$users_id')";
-        mysqli_query($connection, $insert) or die('Ошибка запроса записи в случае если нет такого польователя: ' . mysqli_error($connection));
+        rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users);
 
         $id_order = mysqli_insert_id($connection); // id последней записи
 
@@ -74,13 +68,12 @@ if ($validEmail) {
 
     } elseif ($res) {
         // Запись в заказы
-        $users_id = $res['id'];
-        $insert = "INSERT INTO orders (name, phone, email, street, home, housing, appt, floor, comment, payment, payment_cart, callback, users_id) VALUES ('$name', '$phone', '$email', '$street', '$home', '$housing', '$appt', '$floor', '$comment', '$payment', '$payment_cart', '$callback', '$users_id')";
-        mysqli_query($connection, $insert) or die('Ошибка запроса записи в случае если есть такой пользователь: ' . mysqli_error($connection));
+        $id_users = $res['id'];
+        rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users);
 
         $id_order = mysqli_insert_id($connection); // id последней записи
 
-        $quantity_arr = qty_orders($users_id, $connection); // Подсчёт количества заказов
+        $quantity_arr = qty_orders($id_order, $connection); // Подсчёт количества заказов
 
         go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt); // Отправка почты
     }
@@ -107,8 +100,10 @@ function qty_orders($users_id, $connection)
     return count($quantity_arr);
 }
 
-
-
-
-
-
+/* Запись в заказы
+============================================================*/
+function rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users)
+{
+    $insert = "INSERT INTO orders (name, phone, email, street, home, housing, appt, floor, comment, payment, payment_cart, callback, users_id) VALUES ('$name', '$phone', '$email', '$street', '$home', '$housing', '$appt', '$floor', '$comment', '$payment', '$payment_cart', '$callback', '$id_users')";
+    mysqli_query($connection, $insert) or die('Ошибка запроса записи в заказы: ' . mysqli_error($connection));
+}
