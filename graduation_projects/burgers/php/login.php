@@ -57,26 +57,21 @@ if ($validEmail) {
         // Запись в пользователи
         $insert = "INSERT INTO users (name, email, phone) VALUES ('$name', '$email', '$phone')";
         mysqli_query($connection, $insert) or die('Ошибка запроса записи: ' . mysqli_error($connection));
-        $id_users = mysqli_insert_id($connection); // id последней записи
-
-        // Запись в заказы
-        rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users);
-
-        $id_order = mysqli_insert_id($connection); // id последней записи
-
-        go_mail($validEmail, 1, $id_order, $street, $home, $housing, $appt); // Отправка почты
-
-    } elseif ($res) {
-        // Запись в заказы
-        $id_users = $res['id'];
-        rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users);
-
-        $id_order = mysqli_insert_id($connection); // id последней записи
-
-        $quantity_arr = qty_orders($id_order, $connection); // Подсчёт количества заказов
-
-        go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt); // Отправка почты
     }
+
+    $id_users = mysqli_insert_id($connection); // id последней записи
+
+    (!$id_users) ? $id_users = $res['id'] : ''; // Если записи небыло в 56 строке значит взять id из $res
+
+    // Запись в заказы
+    rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users);
+
+    $id_order = mysqli_insert_id($connection); // id последней записи
+
+    $quantity_arr = qty_orders($id_order, $connection); // Подсчёт количества заказов
+
+    go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt); // Отправка почты
+
 } else {
     die;
 }
