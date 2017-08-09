@@ -49,18 +49,23 @@ if ($validEmail) {
         mysqli_query($connection, $insert) or die('Ошибка запроса записи: ' . mysqli_error($connection));
     }
 
-    $id_users = mysqli_insert_id($connection); // id последней записи
+    // id последней записи
+    $id_users = mysqli_insert_id($connection);
 
-    (!$id_users) ? $id_users = $res['id'] : ''; // Если записи небыло в 56 строке значит взять id из $res
+    // Если записи небыло в 56 строке значит взять id из $res
+    (!$id_users) ? $id_users = $res['id'] : '';
 
     // Запись в заказы
     rec_order($connection, $name, $phone, $email, $street, $home, $housing, $appt, $floor, $comment, $payment, $payment_cart, $callback, $id_users);
 
-    $id_order = mysqli_insert_id($connection); // id последней записи
+    // id последней записи
+    $id_order = mysqli_insert_id($connection);
 
-    $quantity_arr = qty_orders($id_order, $connection); // Подсчёт количества заказов
+    // Подсчёт количества заказов
+    $quantity_arr = qty_orders($id_order, $connection);
 
-    go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt); // Отправка почты
+    // Отправка почты
+    go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt);
 
 } else {
     die;
@@ -77,6 +82,7 @@ function clean($value = '')
 
     return $value;
 }
+
 
 /* Отправляю письмо
 ============================================================*/
