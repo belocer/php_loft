@@ -19,16 +19,6 @@ $payment = clean($_POST['payment']);
 $payment_cart = clean($_POST['payment_cart']);
 $callback = clean($_POST['callback']);
 
-function clean($value = '') // Очищающая функция
-{
-    $value = trim($value);
-    $value = stripslashes($value);
-    $value = strip_tags($value);
-    $value = htmlspecialchars($value);
-
-    return $value;
-}
-
 $validEmail = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL); // Валидация
 
 if ($validEmail) {
@@ -75,6 +65,19 @@ if ($validEmail) {
 } else {
     die;
 }
+
+/* Очищающая функция
+============================================================*/
+function clean($value = '')
+{
+    $value = trim($value);
+    $value = stripslashes($value);
+    $value = strip_tags($value);
+    $value = htmlspecialchars($value);
+
+    return $value;
+}
+
 
 /* Отправляю письмо
 ============================================================*/
