@@ -78,7 +78,6 @@ function clean($value = '')
     return $value;
 }
 
-
 /* Отправляю письмо
 ============================================================*/
 function go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt)
