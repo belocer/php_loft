@@ -1,5 +1,14 @@
 <?php
+require_once('php/cookie.php');
+// Выход
+if (isset($_GET['out'])) {
+    unset($_COOKIE);
+    unset($_SESSION);
+    unset($_POST);
+    header('Location: index.php');
+}
 
+// Перезаписыаю данные пользователя
 if (isset($_POST['save'])) {
     // Очищаю данные от пользователя
     // Проверяю заполненность полей, если косяк, - редирект обратно на reg.html
@@ -10,8 +19,67 @@ if (isset($_POST['save'])) {
     $description = clean($_POST['description']);
     $photo_path = clean($_POST['photo_path']);
 
-    /* Запись в БД
-     ============================================================*/
+    /*Загрузка фото
+=========================*/
+// каталог для загрузки файлов
+    $dir = './photos/';
+
+    if (isset($_FILES['photo_path'])) {
+        $file_unic = uniqid();
+        $upfile = $_FILES['photo_path']['tmp_name']; /*— РНР Сохраняет Принятые фа-ы во временном каталоге, в
+	этом поле массива хранится имя временного файла;*/
+        $upfile_name = str_replace(' ', '', $_FILES['photo_path']['name']); //- имя файла на компьютере пользователя;
+        $upfile_name = preg_replace('|[А-Яа-я]*|u', '', $upfile_name); //- имя файла на компьютере пользователя;
+        $error_code = $_FILES['photo_path']['error']; //— КОД Ошибки
+
+        // Проверка расширения файла
+        $file = empty($_FILES['photo_path']) ? null : $_FILES['photo_path'];
+        $ext = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
+        $img_exts = ['jpeg', 'jpg', 'png', 'gif'];
+
+        if (!in_array($ext, $img_exts)) {
+            die('Это не картинка');
+        }
+
+/*        // Проверка размера файла
+        function convToByte ($size) {
+            $size = strtoupper(trim($size));
+            $length = strlen($size) - 1;
+
+            switch ($size[$length]){
+                case 'G':
+                    $size *= 10240;
+                case 'M':
+                    $size *= 10240;
+                case 'K':
+                    $size *= 10240;
+            }
+            return $size;
+        }
+
+        $file = empty($_FILES['photo_path']) ? null : $_FILES['photo_path'];
+
+        $upload_max_size = convToByte(ini_get('upload_max_filesize'));
+        $post_max_size = convToByte(ini_get('post_max_size'));*/
+
+        if ($file['size'] == 0){
+            die('Пустой файл');
+        }
+/*        if ($file > $upload_max_size || $file > $post_max_size){
+            die('Файл слишком большой');
+        }*/
+
+        // Если ошибок нет
+        if ($error_code == 0) {
+            //Путь сохранения файла
+            $path_file = $dir . $file_unic . $upfile_name;
+            $_SESSION['path_file'] = $path_file;
+            copy($upfile, $path_file);
+        }
+    }
+
+/* Запись в БД
+ ============================================================*/
 // Подключаюсь к БД
     $connection = mysqli_connect('localhost', 'root', '', 'beloc_hw4', 3306);
 
@@ -27,7 +95,6 @@ if (isset($_POST['save'])) {
     $res_users = mysqli_query($connection, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
     $res = mysqli_fetch_assoc($res_users);
 
-
     // Установка кодировки
     mysqli_query($connection, 'SET NAMES "UTF-8"');
 
@@ -35,24 +102,12 @@ if (isset($_POST['save'])) {
     $hashed_password = crypt($password, 'hw4'); // соль hw4
 
     // Пишу в БД
-    $update = "UPDATE users SET login = '$login', password = '$hashed_password', name = '$name', age = '$age', description = '$description', photo = '$photo_path' WHERE login = '$login'";
-    mysqli_query($connection, $update) or die('Ошибка запроса записи в БД логин и пароль : ' . mysqli_error($connection));
+    $update = "UPDATE users SET login = '$login', password = '$hashed_password', name = '$name', age = '$age', description = '$description', photo = '$path_file' WHERE login = '$login'";
+    mysqli_query($connection, $update) or die('Ошибка запроса обновления данных в БД : ' . mysqli_error($connection));
 }
 
-/* Очищающая функция
-============================================================*/
-function clean($value = '')
-{
-    $value = trim($value);
-    $value = stripslashes($value);
-    $value = strip_tags($value);
-    $value = htmlspecialchars($value);
-
-    return $value;
-}
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,53 +150,70 @@ function clean($value = '')
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="index.php">Авторизация</a></li>
-                <li><a href="reg.php">Регистрация</a></li>
-                <li><a href="list.php">Список пользователей</a></li>
-                <li><a href="filelist.php">Список файлов</a></li>
-                <li class="active"><a href="lk.php">Личный кабинет</a></li>
+                <?php if ($_SESSION['auth'] === 1) {
+                    echo '<li><a href="list.php">Список пользователей</a></li>';
+                } ?>
+                <?php if ($_SESSION['auth'] === 1) {
+                    echo '<li><a href="filelist.php">Список файлов</a></li>';
+                } ?>
+                <?php if ($_SESSION['auth'] === 1) {
+                    echo '<li class="active"><a href="lk.php">Личный кабинет</a></li>';
+                } ?>
+                <?php if ($_SESSION['auth'] === 1) {
+                    echo '<li><a href="lk.php?out=out">Выход</a></li>';
+                } ?>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-
+<?php
+// Поиск в БД на совпадение Логина
+$search = "SELECT login, name, age, description, photo FROM users WHERE login = '$login'";
+$users = mysqli_query($connection, $search) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+$res_search = mysqli_fetch_all($users);
+?>
 <div class="form-container" style="margin-top:10%;">
-    <form class="form-horizontal" action="lk.php" method="post">
+    <form class="form-horizontal" action="lk.php" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="login" class="col-sm-2 control-label">Логин</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="login" placeholder="Логин" name="login" required>
+                <input type="text" class="form-control" id="login" placeholder="Логин" name="login"
+                       value="<?php echo $res_search[0][0]; ?>" required>
             </div>
         </div>
         <div class="form-group">
             <label for="password" class="col-sm-2 control-label">Пароль</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" id="password" placeholder="Пароль" name="password" required>
+                <input type="password" class="form-control" id="password" name="password" autocomplete="off" required>
             </div>
         </div>
         <div class="form-group">
             <label for="name" class="col-sm-2 control-label">Имя</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" placeholder="Пароль" name="name" required>
+                <input type="text" class="form-control" id="name" placeholder="Имя" name="name"
+                       value="<?php echo $res_search[0][1]; ?>" required>
             </div>
         </div>
         <div class="form-group">
             <label for="age" class="col-sm-2 control-label">Возраст</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="age" placeholder="Возраст" name="age" required>
+                <input type="text" class="form-control" id="age" placeholder="Возраст" name="age"
+                       value="<?php echo $res_search[0][2]; ?>" required>
             </div>
         </div>
         <div class="form-group">
             <label for="description" class="col-sm-2 control-label">Описание</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="description" placeholder="Описание" name="description"
-                       required>
+                       value="<?php echo $res_search[0][3]; ?>" required>
             </div>
         </div>
         <div class="form-group">
+            <?php if($res_search[0][4]){echo "<img src='" . $res_search[0][4] . "' alt='img' style='width:100px;'>";}else{ echo "Фото НЕТ!";} ?>
+
             <label for="photo_path" class="col-sm-2 control-label">фото</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="photo_path" placeholder="фото" name="photo_path" required>
+                <input type="file" id="photo_path" name="photo_path" accept="image/jpeg,image/png,image/gif">
             </div>
         </div>
         <div class="form-group">

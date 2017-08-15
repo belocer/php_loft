@@ -1,3 +1,25 @@
+<?php
+require_once('php/cookie.php');
+// Выход
+if (isset($_GET['out'])) {
+    header('Location: index.php');
+}
+
+/* Удаление пользователя
+========================*/
+if($_GET['id']) {
+    $id_users = clean($_GET['id']);
+    // Поиск в БД id и удаление фото
+    $del_file = "SELECT photo FROM users WHERE (id = '$id_users')";
+    $res = mysqli_query($connection, $del_file) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+    $res_path = mysqli_fetch_assoc($res);
+    unlink($res_path['photo']);
+    // Удаление строки из БД
+    $del_users = "DELETE FROM users WHERE (id = '$id_users')";
+    mysqli_query($connection, $del_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+    unset($_GET['id']);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -40,11 +62,10 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php">Авторизация</a></li>
-            <li><a href="reg.php">Регистрация</a></li>
-            <li class="active"><a href="list.php">Список пользователей</a></li>
-            <li><a href="filelist.php">Список файлов</a></li>
-            <li><a href="lk.php">Личный кабинет</a></li>
+              <?php if($_SESSION['auth'] === 1){ echo '<li class="active"><a href="list.php">Список пользователей</a></li>';} ?>
+              <?php if($_SESSION['auth'] === 1){ echo '<li><a href="filelist.php">Список файлов</a></li>';} ?>
+              <?php if($_SESSION['auth'] === 1){ echo '<li><a href="lk.php">Личный кабинет</a></li>';} ?>
+              <?php if($_SESSION['auth'] === 1){ echo '<li><a href="lk.php?out=out">Выход</a></li>';} ?>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -62,20 +83,44 @@
           <th>Фотография</th>
           <th>Действия</th>
         </tr>
-        <tr>
-          <td>vasya99</td>
-          <td>Вася</td>
-          <td>14</td>
-          <td>Эксперт в спорах в интернете</td>
-          <td><img src="http://lorempixel.com/people/200/200/" alt=""></td>
-          <td>
-            <a href="">Удалить пользователя</a>
+<?php
+/* Поиск в БД
+ ============================================================*/
+// Подключаюсь к БД
+$connection = mysqli_connect('localhost', 'root', '', 'beloc_hw4', 3306);
+
+if (!$connection) {
+    echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;
+    echo "Код ошибки error: " . mysqli_connect_error() . PHP_EOL;
+    echo "Текст ошибки error: " . mysqli_connect_error() . PHP_EOL;
+    exit;
+}
+
+// Поиск в БД на совпадение Логина
+$search_users = "SELECT * FROM users";
+$res_users = mysqli_query($connection, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+$res = mysqli_fetch_all($res_users);
+
+// Установка кодировки
+mysqli_query($connection, 'SET NAMES "UTF-8"');
+
+foreach ($res as $key => $value){
+
+   echo "<tr>
+          <td>" . $value[1] . "</td>
+          <td>" . $value[3] . "</td>
+          <td>" . $value[4] . "</td>
+          <td>" . $value[5] . "</td>";
+   echo   "<td>";
+   if($value[6]){echo "<img src='" . $value[6] . "' alt='img' style='width:100px;'>";}else{ echo "Фото НЕТ!";}
+   echo   "</td><td>
+            <a href='list.php?id=" . $value[0] . "'>Удалить пользователя</a>
           </td>
-        </tr>
+        </tr>";
+}
+?>
       </table>
-
     </div><!-- /.container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

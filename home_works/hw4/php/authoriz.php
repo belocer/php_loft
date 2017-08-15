@@ -26,16 +26,21 @@ $password_user = crypt($password_user, 'hw4');
 
 if ($res['password'] === $password_user) {
 
+    // готовлю токен
+    $token = $login . '_' . md5($password_user);
+
     // Устанавливаю cookie
     // Проверяю установились ли cookie
-    if (setcookie("login", $login, time() + 3600, '/', 'http://php7/', null, false)) {
-        echo "<h5 style='color:grey; display:block; margin:0 auto; width:500px;height:50px;text-align: center;'>Авторизация действительна в течении часа</h5>";
+    if (setcookie("token", $token, time() + 300, '/')) {
+        echo "<h5 style='color:grey; display:block; margin:0 auto; width:500px;height:50px;text-align: center;'>Авторизация действительна в течении пяти минут</h5>";
         echo "<pre style='overflow: visible;'>";
         print_r($_COOKIE);
         echo "</pre>";
+        $_SESSION['auth'] = 1;
     } else {
         // Запоминаю в сессию
-        $_SESSION['login'] = $login;
+        $_SESSION['token'] = $token;
+        $_SESSION['auth'] = 1;
         echo "<pre style='overflow: visible;'>";
         print_r($_SESSION);
         echo "</pre>";
@@ -45,7 +50,8 @@ if ($res['password'] === $password_user) {
 
 } else if (($res['password'] !== $password_user)) {
 
-    echo "<h1 style='color:darkred'>Не верны логин или пароль</h1>";
+    echo "<h1 style='color:darkred; display:block; margin:0 auto; width:500px;height:50px;text-align: center;'>Не верны логин или пароль</h1>
+          <br><br><a style='display:block; margin:0 auto;' href='index.php'>Попробовать ещё раз</a>";
 
 }
 

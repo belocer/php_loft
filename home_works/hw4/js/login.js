@@ -15,7 +15,7 @@ button.addEventListener('click', function (e) {
     xhr.addEventListener('load', function () {
         if (xhr.status < 400) {
             document.getElementById('form_res_reg').innerHTML = xhr.responseText;
-            //setTimeout("document.location.href='list.php'", 2000);
+            setTimeout("document.location.href='list.php'", 2000);
         } else {
             console.log('ошибка');
         }
