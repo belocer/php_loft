@@ -62,7 +62,7 @@ if ($validEmail) {
     $id_order = mysqli_insert_id($connection);
 
     // Подсчёт количества заказов
-    $quantity_arr = qty_orders($id_order, $connection);
+    $quantity_arr = qty_orders($id_users, $connection);
 
     // Отправка почты
     go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing, $appt);
@@ -95,10 +95,15 @@ function go_mail($validEmail, $quantity_arr, $id_order, $street, $home, $housing
 ============================================================*/
 function qty_orders($users_id, $connection)
 {
+    echo "<pre>";
+    print_r($users_id);
+    echo "</pre>";
     $quantity_string = "SELECT * FROM orders WHERE users_id = '$users_id'";
     $quantity_string = mysqli_query($connection, $quantity_string) or die('Ошибка запроса записи в случае подсчёта строк: ' . mysqli_error($connection));
     $quantity_arr = mysqli_fetch_all($quantity_string);
-
+    echo "<pre>";
+    print_r($quantity_arr);
+    echo "</pre>";
     return count($quantity_arr);
 }
 

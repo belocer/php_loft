@@ -112,7 +112,7 @@ foreach ($res as $key => $value){
           <td>" . $value[4] . "</td>
           <td>" . $value[5] . "</td>";
    echo   "<td>";
-   if($value[6]){echo "<img src='" . $value[6] . "' alt='img' style='width:100px;'>";}else{ echo "Фото НЕТ!";}
+   if($value[6]){echo "<img src='" . $value[6] . "' alt='img' style='width:200px;'>";}else{ echo "Фото НЕТ!";}
    echo   "</td><td>
             <a href='list.php?id=" . $value[0] . "'>Удалить пользователя</a>
           </td>

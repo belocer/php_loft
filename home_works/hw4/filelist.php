@@ -112,7 +112,7 @@ if($_GET['path']) {
             if($value[0]){
                 echo "<tr>
                         <td>" . $name_file . "</td>
-                        <td><img src='" . $value[0] . "' alt='img' width='100px'></td>
+                        <td><img src='" . $value[0] . "' alt='img' width='200px'></td>
                         <td>
                             <a href='filelist.php?path=" . $value[0] . "'>Удалить аватарку пользователя</a>
                         </td>
