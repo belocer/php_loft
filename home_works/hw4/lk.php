@@ -1,5 +1,8 @@
 <?php
+require_once('php/db.php');
+require_once('php/clean.php');
 require_once('php/cookie.php');
+
 // Выход
 if (isset($_GET['out'])) {
     unset($_COOKIE);
@@ -7,6 +10,8 @@ if (isset($_GET['out'])) {
     unset($_POST);
     header('Location: index.php');
 }
+
+$warning = [];
 
 // Перезаписыаю данные пользователя
 if (isset($_POST['save'])) {
@@ -16,6 +21,9 @@ if (isset($_POST['save'])) {
     $password = clean($_POST['password']);
     $name = clean($_POST['name']);
     $age = clean($_POST['age']);
+    if (!is_numeric($age)) {
+        array_push($warning, 'Это не число');
+    }
     $description = clean($_POST['description']);
     $photo_path = clean($_POST['photo_path']);
 
@@ -24,7 +32,8 @@ if (isset($_POST['save'])) {
 // каталог для загрузки файлов
     $dir = './photos/';
 
-    if (isset($_FILES['photo_path'])) {
+    if ($_FILES['photo_path']['name'] && $_FILES['photo_path']['type']) {
+
         $file_unic = uniqid();
         $upfile = $_FILES['photo_path']['tmp_name']; /*— РНР Сохраняет Принятые фа-ы во временном каталоге, в
 	этом поле массива хранится имя временного файла;*/
@@ -38,75 +47,44 @@ if (isset($_POST['save'])) {
         $img_exts = ['jpeg', 'jpg', 'png', 'gif'];
 
         if (!in_array($ext, $img_exts)) {
-            die('Это не картинка');
+            array_push($warning, 'Это не изображение');
         }
-
-/*        // Проверка размера файла
-        function convToByte ($size) {
-            $size = strtoupper(trim($size));
-            $length = strlen($size) - 1;
-
-            switch ($size[$length]){
-                case 'G':
-                    $size *= 10240;
-                case 'M':
-                    $size *= 10240;
-                case 'K':
-                    $size *= 10240;
-            }
-            return $size;
+        if ($file['size'] == 0) {
+            array_push($warning, 'Пустой файл');
         }
-
-        $file = empty($_FILES['photo_path']) ? null : $_FILES['photo_path'];
-
-        $upload_max_size = convToByte(ini_get('upload_max_filesize'));
-        $post_max_size = convToByte(ini_get('post_max_size'));*/
-
-        if ($file['size'] == 0){
-            die('Пустой файл');
+        if ($file['size'] > 3000000) {
+            array_push($warning, 'Пожалуйста,- выберите файл меньше 3 мегабайт.');
         }
-/*        if ($file > $upload_max_size || $file > $post_max_size){
-            die('Файл слишком большой');
-        }*/
 
         // Если ошибок нет
-        if ($error_code == 0) {
+        if ($error_code == 0 && count($warning) < 1) {
             //Путь сохранения файла
             $path_file = $dir . $file_unic . $upfile_name;
-            $_SESSION['path_file'] = $path_file;
             copy($upfile, $path_file);
+        } else {
+            $path_file = '';
         }
+
+        unset($_FILES);
     }
 
-/* Запись в БД
- ============================================================*/
-// Подключаюсь к БД
-    $connection = mysqli_connect('localhost', 'root', '', 'beloc_hw4', 3306);
-
-    if (!$connection) {
-        echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;
-        echo "Код ошибки error: " . mysqli_connect_error() . PHP_EOL;
-        echo "Текст ошибки error: " . mysqli_connect_error() . PHP_EOL;
-        exit;
-    }
-
-// Поиск в БД на совпадение Логина
-    $search_users = "SELECT login FROM users WHERE login = '$login'";
-    $res_users = mysqli_query($connection, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
-    $res = mysqli_fetch_assoc($res_users);
-
-    // Установка кодировки
-    mysqli_query($connection, 'SET NAMES "UTF-8"');
-
-    // Готовлю пароль для записи в БД
-    $hashed_password = crypt($password, 'hw4'); // соль hw4
-
+    /* Запись в БД
+     ============================================================*/
     // Пишу в БД
-    $update = "UPDATE users SET login = '$login', password = '$hashed_password', name = '$name', age = '$age', description = '$description', photo = '$path_file' WHERE login = '$login'";
-    mysqli_query($connection, $update) or die('Ошибка запроса обновления данных в БД : ' . mysqli_error($connection));
+    if (count($warning) < 1) {
+
+        // Поиск в БД на совпадение Логина
+        $search_users = "SELECT login FROM users WHERE login = '$login'";
+        $res_users = mysqli_query($db, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($db));
+        $res = mysqli_fetch_assoc($res_users);
+
+        // Готовлю пароль для записи в БД
+        $hashed_password = crypt($password, 'hw4'); // соль hw4
+
+        $update = "UPDATE users SET login = '$login', password = '$hashed_password', name = '$name', age = '$age', description = '$description', photo = '$path_file' WHERE login = '$login'";
+        mysqli_query($db, $update) or die('Ошибка запроса обновления данных в БД : ' . mysqli_error($db));
+    }
 }
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -169,7 +147,7 @@ if (isset($_POST['save'])) {
 <?php
 // Поиск в БД на совпадение Логина
 $search = "SELECT login, name, age, description, photo FROM users WHERE login = '$login'";
-$users = mysqli_query($connection, $search) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+$users = mysqli_query($db, $search) or die('Ошибка поиска записи: ' . mysqli_error($db));
 $res_search = mysqli_fetch_all($users);
 ?>
 <div class="form-container" style="margin-top:10%;">
@@ -209,13 +187,23 @@ $res_search = mysqli_fetch_all($users);
             </div>
         </div>
         <div class="form-group">
-            <?php if($res_search[0][4]){echo "<img src='" . $res_search[0][4] . "' alt='img' style='width:100px;'>";}else{ echo "Фото НЕТ!";} ?>
-
+            <?php if ($res_search[0][4]) {
+                echo "<img src='" . $res_search[0][4] . "' alt='img' style='width:100px;'>";
+            } else {
+                echo "Фото НЕТ!";
+            } ?>
             <label for="photo_path" class="col-sm-2 control-label">фото</label>
             <div class="col-sm-10">
                 <input type="file" id="photo_path" name="photo_path" accept="image/jpeg,image/png,image/gif">
             </div>
         </div>
+        <div id="warning"><?php
+            if (count($warning) > 0) {
+                foreach ($warning as $key => $value) {
+                    echo '* ' . $value . '<br>';
+                }
+            }
+            ?></div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <button type="submit" class="btn btn-default" id="save" name="save">Сохранить</button>
@@ -231,6 +219,6 @@ $res_search = mysqli_fetch_all($users);
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/save_lk.js"></script>
 </body>
 </html>

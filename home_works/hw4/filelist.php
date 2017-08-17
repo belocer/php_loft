@@ -1,4 +1,5 @@
 <?php
+require_once('php/db.php');
 require_once('php/cookie.php');
 // Выход
 if (isset($_GET['out'])) {
@@ -10,12 +11,12 @@ if($_GET['path']) {
     $path = $_GET['path'];
     // Поиск в БД id и удаление фото
     $del_file = "SELECT photo FROM users WHERE (photo = '$path')";
-    $res = mysqli_query($connection, $del_file) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+    $res = mysqli_query($db, $del_file) or die('Ошибка поиска записи: ' . mysqli_error($db));
     $res_path = mysqli_fetch_assoc($res);
     unlink($path);
     // Удаление строки из БД
     $del_users = "UPDATE users SET photo = '' WHERE (photo = '$path')"; /*"DELETE photo FROM users WHERE (photo = '$path')";*/
-    mysqli_query($connection, $del_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+    mysqli_query($db, $del_users) or die('Ошибка поиска записи: ' . mysqli_error($db));
     unset($_GET['path']);
 }
 ?>
