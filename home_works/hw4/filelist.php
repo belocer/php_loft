@@ -90,23 +90,10 @@ if($_GET['path']) {
             <th>Действия</th>
         </tr>
         <?php
-        // Подключаюсь к БД
-        $connection = mysqli_connect('localhost', 'root', '', 'beloc_hw4', 3306);
-
-        if (!$connection) {
-            echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;
-            echo "Код ошибки error: " . mysqli_connect_error() . PHP_EOL;
-            echo "Текст ошибки error: " . mysqli_connect_error() . PHP_EOL;
-            exit;
-        }
-
-        // Поиск в БД на совпадение Логина
+                // Поиск в БД на совпадение Логина
         $search_users = "SELECT photo FROM users";
         $res_users = mysqli_query($connection, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
         $res = mysqli_fetch_all($res_users);
-
-        // Установка кодировки
-        mysqli_query($connection, 'SET NAMES "UTF-8"');
 
         foreach ($res as $key => $value) {
             $name_file = str_replace('./photos/', '', $value[0]);
