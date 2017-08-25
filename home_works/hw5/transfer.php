@@ -1,7 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: beloc
- * Date: 24.08.2017
- * Time: 15:17
- */
+namespace hw5;
+
+class Transfer
+{
+    public function enable_transfer() // Включить передачу
+    {
+
+    }
+
+    public function disable_transfer() // ВЫключить передачу
+    {
+
+    }
+}

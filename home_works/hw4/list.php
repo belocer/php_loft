@@ -9,7 +9,7 @@ if (isset($_GET['out'])) {
 
 /* Удаление пользователя
 ========================*/
-if ($_GET['id']) {
+if ($_GET['id'] && is_int($_GET['id'])) {
     $id_users = clean($_GET['id']);
     // Поиск в БД id и удаление фото
     $del_file = "SELECT photo FROM users WHERE (id = '$id_users')";
@@ -97,8 +97,6 @@ if ($_GET['id']) {
         <?php
         /* Поиск в БД
          ============================================================*/
-
-        // Поиск в БД на совпадение Логина
         $search_users = "SELECT * FROM users";
         $res_users = mysqli_query($db, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($db));
         $res = mysqli_fetch_all($res_users);

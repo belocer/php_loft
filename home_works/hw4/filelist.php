@@ -89,10 +89,9 @@ if($_GET['path']) {
             <th>Фотография</th>
             <th>Действия</th>
         </tr>
-        <?php
-                // Поиск в БД на совпадение Логина
+        <?php                // Поиск в БД на совпадение Логина
         $search_users = "SELECT photo FROM users";
-        $res_users = mysqli_query($connection, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
+        $res_users = mysqli_query($db, $search_users) or die('Ошибка поиска записи: ' . mysqli_error($connection));
         $res = mysqli_fetch_all($res_users);
 
         foreach ($res as $key => $value) {
