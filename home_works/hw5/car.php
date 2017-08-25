@@ -1,5 +1,8 @@
 <?php
+
 namespace hw5;
+require 'engine.php';
+require 'transfer.php';
 
 class Car
 {
@@ -7,13 +10,20 @@ class Car
     public $speed;
     public $direction;
 
-    function __construct()
+    function __construct($dis, $spe, $dir)
     {
-
+        $this->distance = $dis;
+        $this->speed = $spe;
+        $this->direction = $dir;
     }
 
-    public function move($distance, $speed, $direction)
+    public function move()
     {
 
     }
 }
+
+$niva = new Car(200, 90, "Moscow");
+echo "<pre>";
+print_r($niva);
+echo "</pre>";
