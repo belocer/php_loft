@@ -4,5 +4,37 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../modules/php/PHP-7" />
+          <root url="file://$MODULE_DIR$/../../modules/php/PHP-7-x64" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../modules/php/PHP-7" />
+          <root url="file://$MODULE_DIR$/../../modules/php/PHP-7-x64" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7-x64/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7-x64/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7/PEAR/go-pear.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7-x64/PEAR/go-pear.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7/pharcommand.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7-x64/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7-x64/composer.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7/PEAR/go-pear.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7-x64/PEAR/go-pear.phar/" />
+          <root url="phar://$MODULE_DIR$/../../modules/php/PHP-7/pharcommand.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

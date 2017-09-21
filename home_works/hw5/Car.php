@@ -1,10 +1,12 @@
 <?php
 
 namespace hw5;
-require 'engine.php';
-require 'transfer.php';
 
-class Car extends Transfer
+require_once 'Engine.php';
+
+require_once 'Transmission.php';
+
+class Car extends Transmission
 {
     public $car_name;
     public $distance;
@@ -25,12 +27,8 @@ class Car extends Transfer
         echo 'Дистанция: ' . $this->distance . 'км' . '<br>';
         echo 'Скорость: ' . $this->speed . 'км/ч' . '<br>';
         echo 'Направление: ' . $this->direction . '<br>';
-        parent::start_engine();
-        parent::enable_transfer();
-
-        if ($this->speed > 160) {
-            parent::enable_cooling();
-        }
+        parent::start_engine($this->speed, $this->speed * 7.2, ($this->distance / 0.10 * 5));
+        parent::enable_transmission();
 
         echo "Еду!";
     }

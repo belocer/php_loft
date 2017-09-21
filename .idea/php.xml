@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpDebugIgnoredPathsSettings">
+    <skipped_paths>
+      <skipped_path path="$PROJECT_DIR$/../../modules/php/PHP-7" />
+    </skipped_paths>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../modules/php/PHP-7" />
+      <path value="$PROJECT_DIR$/../../modules/php/PHP-7-x64" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>

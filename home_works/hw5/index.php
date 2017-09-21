@@ -1,9 +1,12 @@
 <?php
 namespace hw5;
+require 'Use_Car.php';
 
-require 'car.php';
-if ($_GET['name'] === '' || $_GET['distance']  === '' || $_GET['speed'] === '' || $_GET['direction'] === '') {
+if ($_GET['name'] === '' || $_GET['distance'] === '' || $_GET['speed'] === '' || $_GET['direction'] === '') {
     $_SESSION['error'] = '<h1 style="color:darkred;">Проверьте заполненность полей!</h1>';
+}
+if ($_GET['distance'] > 10000 || $_GET['speed'] > 300 || $_GET['speed'] < 10 || $_GET['distance'] < 1) {
+    $_SESSION['error_int'] = '<h1 style="color:darkred;">Указаны не верные параметры!</h1>';
 }
 
 ?>
@@ -28,6 +31,9 @@ if ($_GET['name'] === '' || $_GET['distance']  === '' || $_GET['speed'] === '' |
 if ($_SESSION['error'] && $_GET['button'] === 'Поехали') {
     echo $_SESSION['error'];
 }
+if ($_SESSION['error_int'] && $_GET['button'] === 'Поехали') {
+    echo $_SESSION['error_int'];
+}
 ?>
 <form action="#" method="get" class="container">
     <h2>Указать параметры авто:</h2>
@@ -44,7 +50,8 @@ if ($_SESSION['error'] && $_GET['button'] === 'Поехали') {
 <div class="res container">
     <h1 class="res">Результат:</h1>
     <?php
-    $car = new Car($_GET['name'], $_GET['distance'], $_GET['speed'], $_GET['direction']);
+
+    $car = new Use_Car($_GET['name'], $_GET['distance'], $_GET['speed'], $_GET['direction']);
 
     $car->move() . '<br>';
 
