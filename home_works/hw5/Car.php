@@ -27,9 +27,9 @@ class Car extends Transmission
         echo 'Дистанция: ' . $this->distance . 'км' . '<br>';
         echo 'Скорость: ' . $this->speed . 'км/ч' . '<br>';
         echo 'Направление: ' . $this->direction . '<br>';
-        parent::start_engine($this->speed, $this->speed * 7.2, ($this->distance / 0.10 * 5));
+        parent::start_engine($this->speed, $this->speed * 7.2, ($this->distance / 0.10 * 5), $this->distance);
         parent::enable_transmission();
 
-        echo "Еду!";
+        echo "Еду!" . '<br>';
     }
 }

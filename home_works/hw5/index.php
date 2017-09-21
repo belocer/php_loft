@@ -54,8 +54,8 @@ if ($_SESSION['error_int'] && $_GET['button'] === 'Поехали') {
     $car = new Use_Car($_GET['name'], $_GET['distance'], $_GET['speed'], $_GET['direction']);
 
     $car->move() . '<br>';
+    $car->stop_engine($_GET['distance'], $_GET['speed'], ($_GET['distance'] / 0.10 * 5)) . '<br>';
 
-    unset($_GET);
     ?>
     <br><br>
     <hr>

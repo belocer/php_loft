@@ -4,15 +4,17 @@ namespace hw5;
 
 class Engine
 {
-    public $speed;
-    public $power;
-    public $temperature;
+    private $speed;
+    private $power;
+    private $temperature;
+    private $distance;
 
-    function __construct($spe, $pow, $temper)
+    function __construct($spe, $pow, $temper, $distance)
     {
         $this->speed = $spe;
         $this->power = $pow;
         $this->temperature = $temper;
+        $this->distance = $distance;
     }
 
     public function start_engine($speed, $power, $temperature) // Завести двигатель
@@ -28,9 +30,14 @@ class Engine
         echo 'Температура: ' . $temperature . "<br>";
     }
 
-    public function stop_engine() // Остановить двигатель
+    public function stop_engine($distance, $speed, $temperature) // Остановить двигатель
     {
         echo 'Останавливаю двигатель.' . '<br>';
+
+        echo 'Затрачено времени: ' . ($distance / $speed) . ' часов<br>';
+
+        echo 'Количество включений охлаждения: ' . (int) ($temperature / 90) . '<br>';
+        unset($_GET);
     }
 
     private function enable_cooling() // Включить охлаждение
