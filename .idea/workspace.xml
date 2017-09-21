@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52034dd0-d481-4160-a564-24e89c6a640e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home_works/hw5/Car.php" afterPath="$PROJECT_DIR$/home_works/hw5/Car.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home_works/hw5/Engine.php" afterPath="$PROJECT_DIR$/home_works/hw5/Engine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home_works/hw5/Transmission.php" afterPath="$PROJECT_DIR$/home_works/hw5/Transmission.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home_works/hw5/index.php" afterPath="$PROJECT_DIR$/home_works/hw5/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +23,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46215597">
+    <splitter split-orientation="horizontal" split-proportion="0.5349771">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Car.php" pinned="false" current-in-tab="false">
@@ -42,8 +39,8 @@
           <file leaf-file-name="Engine.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/home_works/hw5/Engine.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="491">
-                  <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+                <state relative-caret-position="651">
+                  <caret line="39" column="169" lean-forward="false" selection-start-line="39" selection-start-column="169" selection-end-line="39" selection-end-column="169" />
                   <folding />
                 </state>
               </provider>
@@ -76,7 +73,7 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/home_works/hw5/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="457">
+                <state relative-caret-position="722">
                   <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
                   <folding>
                     <marker date="1505995527623" expanded="true" signature="192:206" ph="..." />
@@ -159,8 +156,8 @@
         <option value="$PROJECT_DIR$/home_works/hw5/Use_Car.php" />
         <option value="$PROJECT_DIR$/home_works/hw5/Transmission.php" />
         <option value="$PROJECT_DIR$/home_works/hw5/Car.php" />
-        <option value="$PROJECT_DIR$/home_works/hw5/Engine.php" />
         <option value="$PROJECT_DIR$/home_works/hw5/index.php" />
+        <option value="$PROJECT_DIR$/home_works/hw5/Engine.php" />
       </list>
     </option>
   </component>
@@ -516,7 +513,7 @@
       <workItem from="1505983893898" duration="1041000" />
       <workItem from="1505985096004" duration="1745000" />
       <workItem from="1505986862672" duration="1158000" />
-      <workItem from="1505988056999" duration="4524000" />
+      <workItem from="1505988056999" duration="5817000" />
     </task>
     <task id="LOCAL-00001" summary="321">
       <created>1499789798543</created>
@@ -829,7 +826,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284153000" />
+    <option name="totallyTimeSpent" value="285446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -844,7 +841,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10695187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4347826" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2952381" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2952381" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1125,22 +1122,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_works/hw5/Engine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home_works/hw5/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="722">
           <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
           <folding>
             <marker date="1505995527623" expanded="true" signature="192:206" ph="..." />
             <marker date="1505995527623" expanded="true" signature="394:408" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_works/hw5/Engine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="39" column="169" lean-forward="false" selection-start-line="39" selection-start-column="169" selection-end-line="39" selection-end-column="169" />
+          <folding />
         </state>
       </provider>
     </entry>

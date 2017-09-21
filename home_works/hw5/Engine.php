@@ -27,7 +27,7 @@ class Engine
 
         echo 'Скорость: ' . $speed . "<br>";
         echo 'Мощность: ' . $power . "<br>";
-        echo 'Температура: ' . $temperature . "<br>";
+        echo 'Температура двигателя если его не охлаждать: ' . $temperature . "<br>";
     }
 
     public function stop_engine($distance, $speed, $temperature) // Остановить двигатель
@@ -37,6 +37,8 @@ class Engine
         echo 'Затрачено времени: ' . ($distance / $speed) . ' часов<br>';
 
         echo 'Количество включений охлаждения: ' . (int) ($temperature / 90) . '<br>';
+        echo 'Двигатель охлажден до : ' . (int) ($temperature - ($temperature / 90)) . ' - жесть конечно, но я так понял не было задачи охладить двигатель до 0 градусов :/ <br>';
+
         unset($_GET);
     }
 
